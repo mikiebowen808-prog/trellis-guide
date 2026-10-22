@@ -671,7 +671,6 @@
   <channel site="directv.com" site_id="e8e77841-c3ec-4442-8458-d08231e89f73" lang="en" xmltv_id="">Torque by History</channel>
   <channel site="directv.com" site_id="e014b20e-3de9-4647-9273-8e8db8491f4b" lang="en" xmltv_id="">Seasonal Sport Offer Channel</channel>
   <channel site="directv.com" site_id="e14e1153-f879-400f-ba26-7ace93def3fe" lang="en" xmltv_id="">New York WABC 7 ABC</channel>
-  <channel site="directv.com" site_id="e68a9f77-7585-4b8a-a365-efffe5531d25" lang="en" xmltv_id="">BabyTV</channel>
   <channel site="directv.com" site_id="e68e7c8f-93a1-468b-b3c8-73d110051278" lang="en" xmltv_id="">New York, NY WPXN ION 31 SD</channel>
   <channel site="directv.com" site_id="e320dc82-26db-4e64-8548-f9180bd7f0c3" lang="en" xmltv_id="">Jewelry Television</channel>
   <channel site="directv.com" site_id="e499c4cf-6b9b-483f-b1fa-cbd0d79a81bf" lang="en" xmltv_id="">GEM Shopping Network</channel>
@@ -739,7 +738,6 @@
   <channel site="tvpassport.com" site_id="cnn-international-latin-america/3009" lang="en" xmltv_id="">CNN International Latin America</channel>
   <channel site="tvpassport.com" site_id="classic-arts-showcase-hd/35287" lang="en" xmltv_id="">Classic Arts Showcase</channel>
   <channel site="tvpassport.com" site_id="bet-gospel-hd/33719" lang="en" xmltv_id="">BET Gospel</channel>
-  <channel site="tvpassport.com" site_id="hbo-family--eastern-feed-hd/7104" lang="en" xmltv_id="HBOFamily.us@East">HBO Family - Eastern Feed</channel>
   <channel site="tvpassport.com" site_id="playboy-tv-latin-america/19086" lang="en" xmltv_id="">Playboy TV Latin America</channel>
   <channel site="tvpassport.com" site_id="ant1-satellite/16800" lang="en" xmltv_id="">ANT1 Satellite</channel>
   <channel site="tvpassport.com" site_id="hitn/4543" lang="en" xmltv_id="">HITN</channel>
@@ -963,4 +961,6 @@
   <channel site="tvinsider.com" site_id="hsn" lang="en" xmltv_id="">HSN</channel>
   <channel site="tvinsider.com" site_id="msg" lang="en" xmltv_id="">MSG</channel>
   <channel site="tvpassport.com" site_id="sportsnet-rocky-mountains/1108" lang="en" xmltv_id="">SportsNet Rocky Mountain</channel>
+  <channel site="tvinsider.com" site_id="hbo-family" lang="en" xmltv_id="">HBO Family</channel>
+  <channel site="tvpassport.com" site_id="baby-tv/4443" lang="en" xmltv_id="">Baby TV</channel>
 </channels>
