@@ -3,7 +3,12 @@ name: Build guide
 on:
   schedule:
     - cron: "17 10 * * *"     # daily, 00:17 in Honolulu
-  workflow_dispatch: {}       # "Run workflow" button for a manual refresh
+  workflow_dispatch:          # "Run workflow" button for a manual refresh
+    inputs:
+      min_channels:
+        description: "Alert when fewer channels than this have listings"
+        required: false
+        default: "800"
 
 permissions:
   contents: write
@@ -61,3 +66,37 @@ jobs:
           git add last-run.txt
           git commit -m "Guide rebuilt $(cat last-run.txt)" || true
           git push
+
+      - name: Check the guide (fails the run, and GitHub emails, when a source has broken)
+        env:
+          MIN_CHANNELS: ${{ inputs.min_channels || '800' }}
+        run: |
+          python3 - <<'PY'
+          import os, re, collections
+          channels = open("trellis.channels.xml", encoding="utf-8").read()
+          site_of = {}
+          for attrs, name in re.findall(r'<channel ([^>]*)>([^<]*)</channel>', channels):
+              a = dict(re.findall(r'(\w+)="([^"]*)"', attrs))
+              site_of[a.get("xmltv_id") or a["site_id"]] = a["site"]
+          guide = open("guide.xml", encoding="utf-8").read()
+          listed = set(re.findall(r'<programme[^>]*channel="([^"]*)"', guide))
+          total, filled = collections.Counter(), collections.Counter()
+          for key, site in site_of.items():
+              total[site] += 1
+              filled[site] += key in listed
+          count, minimum = len(listed & set(site_of)), int(os.environ["MIN_CHANNELS"])
+          lines = [f"**{count} of {len(site_of)} channels have listings** (alert below {minimum})", "",
+                   "| Source | With listings |", "|---|---|"]
+          lines += [f"| {s} | {filled[s]} of {total[s]} |" for s in sorted(total, key=lambda s: -total[s])]
+          broken = [s for s in total if total[s] >= 5 and filled[s] == 0]
+          if broken:
+              lines += ["", "Sources returning nothing: " + ", ".join(broken)]
+          report = "\n".join(lines)
+          print(report)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write(report + "\n")
+          if count < minimum or broken:
+              print("::error::The guide looks broken: " + (f"only {count} channels have listings" if count < minimum
+                    else "a source returned nothing") + ". Ask Claude to look at grab-log.txt in the latest release.")
+              raise SystemExit(1)
+          PY
