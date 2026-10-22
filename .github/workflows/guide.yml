@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: guide
@@ -68,6 +69,7 @@ jobs:
           git push
 
       - name: Check the guide (fails the run, and GitHub emails, when a source has broken)
+        id: check
         env:
           MIN_CHANNELS: ${{ inputs.min_channels || '800' }}
         run: |
@@ -100,3 +102,19 @@ jobs:
                     else "a source returned nothing") + ". Ask Claude to look at grab-log.txt in the latest release.")
               raise SystemExit(1)
           PY
+
+      - name: Open an issue that mentions you (a second way to get the email)
+        if: failure() && steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          body="@${{ github.repository_owner }} tonight's guide looks broken. Summary and log: $RUN_URL
+          (grab-log.txt is also in the latest release). Forward this to Claude."
+          open=$(gh issue list --state open --label guide-alert --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "$body"
+          else
+            gh label create guide-alert --color B60205 --description "Nightly guide check failed" 2>/dev/null || true
+            gh issue create --title "Guide alert: a listings source has broken" --label guide-alert --body "$body"
+          fi
