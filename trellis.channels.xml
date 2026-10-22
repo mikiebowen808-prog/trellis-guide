@@ -964,37 +964,11 @@
   <channel site="tvinsider.com" site_id="hbo-family" lang="en" xmltv_id="">HBO Family</channel>
   <channel site="tvpassport.com" site_id="baby-tv/4443" lang="en" xmltv_id="">Baby TV</channel>
   <!-- UK and Canadian sports -->
-  <channel site="tv24.co.uk" site_id="bt-sport-1" lang="en" xmltv_id="Trellis-TNTSports1.uk">TNT Sports 1</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-2" lang="en" xmltv_id="Trellis-TNTSports2.uk">TNT Sports 2</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-3" lang="en" xmltv_id="Trellis-TNTSports3.uk">TNT Sports 3</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-espn" lang="en" xmltv_id="Trellis-TNTSports4.uk">TNT Sports 4</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-1" lang="en" xmltv_id="Trellis-TNTSports5.uk">TNT Sports 5</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-2" lang="en" xmltv_id="Trellis-TNTSports6.uk">TNT Sports 6</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-3" lang="en" xmltv_id="Trellis-TNTSports7.uk">TNT Sports 7</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-4" lang="en" xmltv_id="Trellis-TNTSports8.uk">TNT Sports 8</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-5" lang="en" xmltv_id="Trellis-TNTSports9.uk">TNT Sports 9</channel>
-  <channel site="tv24.co.uk" site_id="bt-sport-extra-6" lang="en" xmltv_id="Trellis-TNTSports10.uk">TNT Sports 10</channel>
-  <channel site="tv24.co.uk" site_id="eurosport-1" lang="en" xmltv_id="Trellis-Eurosport1.uk">Eurosport 1</channel>
-  <channel site="tv24.co.uk" site_id="eurosport-2" lang="en" xmltv_id="Trellis-Eurosport2.uk">Eurosport 2</channel>
-  <channel site="tv24.co.uk" site_id="free-sports" lang="en" xmltv_id="Trellis-ViaplayXtra.uk">Viaplay Xtra</channel>
-  <channel site="tv24.co.uk" site_id="liverpool-football-club-tv" lang="en" xmltv_id="Trellis-LFCTV.uk">LFC TV</channel>
   <channel site="tv24.co.uk" site_id="manchester-united-television" lang="en" xmltv_id="Trellis-MUTV.uk">MUTV</channel>
-  <channel site="tv24.co.uk" site_id="racing-tv" lang="en" xmltv_id="Trellis-RacingTV.uk">Racing TV</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-action" lang="en" xmltv_id="Trellis-SkySportsAction.uk">Sky Sports Action</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-arena" lang="en" xmltv_id="Trellis-SkySports.uk">Sky Sports+</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-classics-1" lang="en" xmltv_id="Trellis-SkySportsClassics.uk">Sky Sports Classics</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-cricket" lang="en" xmltv_id="Trellis-SkySportsCricket.uk">Sky Sports Cricket</channel>
   <channel site="tv24.co.uk" site_id="sky-sports-f1" lang="en" xmltv_id="Trellis-SkySportsF1.uk">Sky Sports F1</channel>
   <channel site="tv24.co.uk" site_id="sky-sports-football" lang="en" xmltv_id="Trellis-SkySportsFootball.uk">Sky Sports Football</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-golf" lang="en" xmltv_id="Trellis-SkySportsGolf.uk">Sky Sports Golf</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-main-event" lang="en" xmltv_id="Trellis-SkySportsMainEvent.uk">Sky Sports Main Event</channel>
   <channel site="tv24.co.uk" site_id="sky-sports-mix" lang="en" xmltv_id="Trellis-SkySportsMix.uk">Sky Sports Mix</channel>
   <channel site="tv24.co.uk" site_id="sky-sports-news" lang="en" xmltv_id="Trellis-SkySportsNews.uk">Sky Sports News</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-premiereague-l" lang="en" xmltv_id="Trellis-SkySportsPremierLeague.uk">Sky Sports Premier League</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-racing" lang="en" xmltv_id="Trellis-SkySportsRacing.uk">Sky Sports Racing</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-stories-1" lang="en" xmltv_id="Trellis-SkySportsStories.uk">Sky Sports Stories</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-tennis-sd" lang="en" xmltv_id="Trellis-SkySportsTennis.uk">Sky Sports Tennis</channel>
-  <channel site="tv24.co.uk" site_id="sky-sports-vault-1" lang="en" xmltv_id="Trellis-SkySportsVault.uk">Sky Sports Vault</channel>
   <channel site="tvpassport.com" site_id="game-tv/5976" lang="en" xmltv_id="Trellis-GameTV.ca">Game TV</channel>
   <channel site="tvpassport.com" site_id="golf-channel-canada/9900" lang="en" xmltv_id="Trellis-GolfChannelCanada.ca">Golf Channel Canada</channel>
   <channel site="tvpassport.com" site_id="sportsnet-canucks/8628" lang="en" xmltv_id="Trellis-SportsnetCanucks.ca">Sportsnet Canucks</channel>
@@ -1019,4 +993,26 @@
   <channel site="tvpassport.com" site_id="tsn4/279" lang="en" xmltv_id="Trellis-TSN4.ca">TSN4</channel>
   <channel site="tvpassport.com" site_id="tsn5/278" lang="en" xmltv_id="Trellis-TSN5.ca">TSN5</channel>
   <channel site="tvpassport.com" site_id="tva-sports/9823" lang="en" xmltv_id="Trellis-TVASports.ca">TVA Sports</channel>
+  <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="Trellis-TNTSports1.uk">TNT Sports 1</channel>
+  <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="Trellis-TNTSports2.uk">TNT Sports 2</channel>
+  <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="Trellis-TNTSports3.uk">TNT Sports 3</channel>
+  <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="Trellis-TNTSports4.uk">TNT Sports 4</channel>
+  <channel site="sky.com" site_id="GB#1242" lang="en" xmltv_id="Trellis-TNTSports5.uk">TNT Sports 5</channel>
+  <channel site="sky.com" site_id="GB#5382" lang="en" xmltv_id="Trellis-TNTSports6.uk">TNT Sports 6</channel>
+  <channel site="sky.com" site_id="GB#5383" lang="en" xmltv_id="Trellis-TNTSports7.uk">TNT Sports 7</channel>
+  <channel site="sky.com" site_id="GB#5384" lang="en" xmltv_id="Trellis-TNTSports8.uk">TNT Sports 8</channel>
+  <channel site="sky.com" site_id="GB#5385" lang="en" xmltv_id="Trellis-TNTSports9.uk">TNT Sports 9</channel>
+  <channel site="sky.com" site_id="GB#5386" lang="en" xmltv_id="Trellis-TNTSports10.uk">TNT Sports 10</channel>
+  <channel site="sky.com" site_id="GB#3845" lang="en" xmltv_id="Trellis-LFCTV.uk">LFC TV</channel>
+  <channel site="sky.com" site_id="GB#5272" lang="en" xmltv_id="Trellis-RacingTV.uk">Racing TV</channel>
+  <channel site="sky.com" site_id="GB#1333" lang="en" xmltv_id="Trellis-SkySportsAction.uk">Sky Sports Action</channel>
+  <channel site="sky.com" site_id="GB#3839" lang="en" xmltv_id="Trellis-SkySports.uk">Sky Sports+</channel>
+  <channel site="sky.com" site_id="GB#1302" lang="en" xmltv_id="Trellis-SkySportsCricket.uk">Sky Sports Cricket</channel>
+  <channel site="sky.com" site_id="GB#1324" lang="en" xmltv_id="Trellis-SkySportsGolf.uk">Sky Sports Golf</channel>
+  <channel site="sky.com" site_id="GB#1309" lang="en" xmltv_id="Trellis-SkySportsMainEvent.uk">Sky Sports Main Event</channel>
+  <channel site="sky.com" site_id="GB#1097" lang="en" xmltv_id="Trellis-SkySportsPremierLeague.uk">Sky Sports Premier League</channel>
+  <channel site="sky.com" site_id="GB#4032" lang="en" xmltv_id="Trellis-SkySportsRacing.uk">Sky Sports Racing</channel>
+  <channel site="sky.com" site_id="GB#1285" lang="en" xmltv_id="Trellis-SkySportsTennis.uk">Sky Sports Tennis</channel>
+  <channel site="sky.com" site_id="GB#1192" lang="en" xmltv_id="Trellis-PremierSports1.uk">Premier Sports 1</channel>
+  <channel site="sky.com" site_id="GB#1193" lang="en" xmltv_id="Trellis-PremierSports2.uk">Premier Sports 2</channel>
 </channels>
