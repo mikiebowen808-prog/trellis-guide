@@ -1,0 +1,61 @@
+name: Build guide
+
+on:
+  schedule:
+    - cron: "17 10 * * *"     # daily, 00:17 in Honolulu
+  workflow_dispatch: {}       # "Run workflow" button for a manual refresh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guide
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get the latest iptv-org/epg grabber
+        run: git clone --depth 1 https://github.com/iptv-org/epg epg
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install
+        working-directory: epg
+        run: npm ci --no-audit --no-fund
+
+      - name: Grab two days of listings
+        working-directory: epg
+        run: |
+          npm run grab --- \
+            --channels=../trellis.channels.xml \
+            --output=../guide.xml \
+            --days=2 \
+            --maxConnections=4 \
+            --gzip=../guide.xml.gz
+          ls -l ../guide.xml ../guide.xml.gz
+          echo "Programmes: $(grep -c '<programme' ../guide.xml)"
+          echo "Channels with listings: $(grep -o '<programme[^>]*channel="[^"]*"' ../guide.xml | sed 's/.*channel=//' | sort -u | wc -l)"
+
+      - name: Publish (Trellis reads releases/download/latest/guide.xml.gz)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || \
+            gh release create latest --title "Latest guide" --notes "Rebuilt daily by the Build guide workflow."
+          gh release upload latest guide.xml.gz --clobber
+
+      - name: Note the run (keeps GitHub's daily schedule switched on)
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > last-run.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git add last-run.txt
+          git commit -m "Guide rebuilt $(cat last-run.txt)" || true
+          git push

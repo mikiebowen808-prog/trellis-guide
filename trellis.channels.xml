@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tvtv.us" site_id="2121" lang="en" xmltv_id="EuronewsEnglish.fr@SD">Euronews English</channel>
+  <channel site="tvtv.us" site_id="3900" lang="en" xmltv_id="EuronewsFrench.fr@SD">Euronews Français</channel>
+  <channel site="tvtv.us" site_id="9581" lang="en" xmltv_id="SpectrumOC16.us@SD">Spectrum OC16</channel>
+  <channel site="tvtv.us" site_id="10002" lang="en" xmltv_id="3ABNEnglish.us@SD">3ABN English</channel>
+  <channel site="tvtv.us" site_id="10003" lang="en" xmltv_id="ABC.us@East">ABC East</channel>
+  <channel site="tvtv.us" site_id="10021" lang="en" xmltv_id="AMC.us@East">AMC East</channel>
+  <channel site="tvtv.us" site_id="10035" lang="en" xmltv_id="AE.us@East">A&amp;E East</channel>
+  <channel site="tvtv.us" site_id="10051" lang="en" xmltv_id="BET.us@East">BET East</channel>
+  <channel site="tvtv.us" site_id="10057" lang="en" xmltv_id="Bravo.us@East">Bravo East</channel>
+  <channel site="tvtv.us" site_id="10078" lang="en" xmltv_id="YurViewCalifornia.us@SD">YurView California</channel>
+  <channel site="tvtv.us" site_id="10093" lang="en" xmltv_id="Freeform.us@East">Freeform East</channel>
+  <channel site="tvtv.us" site_id="10098" lang="en" xmltv_id="CBS.us@East">CBS East</channel>
+  <channel site="tvtv.us" site_id="10120" lang="en" xmltv_id="Cinemax.us@East">Cinemax East</channel>
+  <channel site="tvtv.us" site_id="10121" lang="en" xmltv_id="MoreMax.us@East">MoreMax East</channel>
+  <channel site="tvtv.us" site_id="10126" lang="en" xmltv_id="">Bally Sports Southeast Georgia</channel>
+  <channel site="tvtv.us" site_id="10127" lang="en" xmltv_id="">Bally Sports Southeast North Carolina</channel>
+  <channel site="tvtv.us" site_id="10130" lang="en" xmltv_id="">Bally Sports Southeast South Carolina</channel>
+  <channel site="tvtv.us" site_id="10138" lang="en" xmltv_id="CMT.us@East">CMT East</channel>
+  <channel site="tvtv.us" site_id="10139" lang="en" xmltv_id="CNBC.us@SD">CNBC</channel>
+  <channel site="tvtv.us" site_id="10145" lang="en" xmltv_id="HLN.us@SD">HLN</channel>
+  <channel site="tvtv.us" site_id="10149" lang="en" xmltv_id="ComedyCentral.us@East">Comedy Central East</channel>
+  <channel site="tvtv.us" site_id="10153" lang="en" xmltv_id="truTV.us@East">TruTV East</channel>
+  <channel site="tvtv.us" site_id="10161" lang="en" xmltv_id="CSPAN.us@SD">C-SPAN</channel>
+  <channel site="tvtv.us" site_id="10162" lang="en" xmltv_id="CSPAN2.us@SD">C-SPAN2</channel>
+  <channel site="tvtv.us" site_id="10171" lang="en" xmltv_id="DisneyChannel.us@East">Disney Channel East</channel>
+  <channel site="tvtv.us" site_id="10178" lang="en" xmltv_id="StarzEncore.us@East">Starz Encore East</channel>
+  <channel site="tvtv.us" site_id="10179" lang="en" xmltv_id="ESPN.us@SD">ESPN</channel>
+  <channel site="tvtv.us" site_id="10183" lang="en" xmltv_id="EWTN.us@English">EWTN</channel>
+  <channel site="tvtv.us" site_id="10201" lang="en" xmltv_id="Flix.us@East">Flix East</channel>
+  <channel site="tvtv.us" site_id="10212" lang="en" xmltv_id="Fox.us@East">Fox East</channel>
+  <channel site="tvtv.us" site_id="10222" lang="en" xmltv_id="Galavision.us@East">Galavisión Este</channel>
+  <channel site="tvtv.us" site_id="10240" lang="en" xmltv_id="HBO.us@East">HBO East</channel>
+  <channel site="tvtv.us" site_id="10241" lang="en" xmltv_id="HBO2.us@East">HBO2 East</channel>
+  <channel site="tvtv.us" site_id="10243" lang="en" xmltv_id="HBOSignature.us@East">HBO Signature East</channel>
+  <channel site="tvtv.us" site_id="10269" lang="en" xmltv_id="HSN.us@East">HSN</channel>
+  <channel site="tvtv.us" site_id="10270" lang="en" xmltv_id="HSN2.us@SD">HSN2</channel>
+  <channel site="tvtv.us" site_id="10271" lang="en" xmltv_id="NBCSportsWashington.us@SD">NBC Sports Washington</channel>
+  <channel site="tvtv.us" site_id="10465" lang="en" xmltv_id="">Melody Drama</channel>
+  <channel site="tvtv.us" site_id="10471" lang="en" xmltv_id="">Melody Hits</channel>
+  <channel site="tvtv.us" site_id="10487" lang="en" xmltv_id="">ETTV America</channel>
+  <channel site="tvtv.us" site_id="10488" lang="en" xmltv_id="ETTVChina.tw@SD">ETTV China</channel>
+  <channel site="tvtv.us" site_id="10575" lang="en" xmltv_id="ArirangWorld.kr@SD">Arirang World</channel>
+  <channel site="tvtv.us" site_id="10979" lang="en" xmltv_id="MSG.us@SD">MSG</channel>
+  <channel site="tvtv.us" site_id="10986" lang="en" xmltv_id="MTV.us@East">MTV East</channel>
+  <channel site="tvtv.us" site_id="10989" lang="en" xmltv_id="E.us@East">E! East</channel>
+  <channel site="tvtv.us" site_id="10991" lang="en" xmltv_id="NBC.us@East">NBC East</channel>
+  <channel site="tvtv.us" site_id="10996" lang="en" xmltv_id="NESN.us@SD">NESN</channel>
+  <channel site="tvtv.us" site_id="10999" lang="en" xmltv_id="News12LongIsland.us@SD">News12 Long Island</channel>
+  <channel site="tvtv.us" site_id="11000" lang="en" xmltv_id="NECN.us@SD">NECN</channel>
+  <channel site="tvtv.us" site_id="11006" lang="en" xmltv_id="Nickelodeon.us@East">Nickelodeon East</channel>
+  <channel site="tvtv.us" site_id="11017" lang="en" xmltv_id="ShopTV.ph@SD">Shop TV</channel>
+  <channel site="tvtv.us" site_id="11054" lang="en" xmltv_id="">Bally Sports West</channel>
+  <channel site="tvtv.us" site_id="11062" lang="en" xmltv_id="RootSportsNorthwest.us@SD">Root Sports Northwest</channel>
+  <channel site="tvtv.us" site_id="11066" lang="en" xmltv_id="INSP.us@SD">INSP</channel>
+  <channel site="tvtv.us" site_id="11069" lang="en" xmltv_id="QVC.us@SD">QVC</channel>
+  <channel site="tvtv.us" site_id="11095" lang="en" xmltv_id="">Bally Sports Florida</channel>
+  <channel site="tvtv.us" site_id="11104" lang="en" xmltv_id="NBCSportsBoston.us@SD">NBC Sports Boston</channel>
+  <channel site="tvtv.us" site_id="11105" lang="en" xmltv_id="MSGPlus.us@SD">MSG Plus</channel>
+  <channel site="tvtv.us" site_id="11106" lang="en" xmltv_id="">Bally Sports Ohio</channel>
+  <channel site="tvtv.us" site_id="11115" lang="en" xmltv_id="Showtime.us@East">Showtime East</channel>
+  <channel site="tvtv.us" site_id="11116" lang="en" xmltv_id="Showtime2.us@East">Showtime 2 East</channel>
+  <channel site="tvtv.us" site_id="11129" lang="en" xmltv_id="">Bally Sports South</channel>
+  <channel site="tvtv.us" site_id="11141" lang="en" xmltv_id="">Bally Sports Sun</channel>
+  <channel site="tvtv.us" site_id="11156" lang="en" xmltv_id="TheFamilyChannel.us@East">The Family Channel</channel>
+  <channel site="tvtv.us" site_id="11158" lang="en" xmltv_id="TLC.us@East">TLC East</channel>
+  <channel site="tvtv.us" site_id="11160" lang="en" xmltv_id="TheMovieChannel.us@East">The Movie Channel East</channel>
+  <channel site="tvtv.us" site_id="11163" lang="en" xmltv_id="ParamountNetwork.us@East">Paramount Network East</channel>
+  <channel site="tvtv.us" site_id="11187" lang="en" xmltv_id="TheWeatherChannel.us@SD">The Weather Channel</channel>
+  <channel site="tvtv.us" site_id="11207" lang="en" xmltv_id="USANetwork.us@East">USA Network East</channel>
+  <channel site="tvtv.us" site_id="11218" lang="en" xmltv_id="VH1.us@East">VH1 East</channel>
+  <channel site="tvtv.us" site_id="11221" lang="en" xmltv_id="HallmarkChannel.us@East">Hallmark Channel East</channel>
+  <channel site="tvtv.us" site_id="11253" lang="en" xmltv_id="NTDTV.us@East">NTD TV</channel>
+  <channel site="tvtv.us" site_id="11514" lang="en" xmltv_id="WorldHarvestTV.us@SD">World Harvest TV</channel>
+  <channel site="tvtv.us" site_id="11523" lang="en" xmltv_id="">UniMás Central</channel>
+  <channel site="tvtv.us" site_id="11549" lang="en" xmltv_id="Blaze.uk@SD">Blaze</channel>
+  <channel site="tvtv.us" site_id="11580" lang="en" xmltv_id="BigTenNetworkAlternate.us@SD">Big Ten Network Alternate</channel>
+  <channel site="tvtv.us" site_id="12309" lang="en" xmltv_id="News12Westchester.us@SD">News12 Westchester</channel>
+  <channel site="tvtv.us" site_id="12324" lang="en" xmltv_id="TVJapan.jp@SD">TV Japan</channel>
+  <channel site="tvtv.us" site_id="12553" lang="en" xmltv_id="NASATV.us@SD">NASA TV</channel>
+  <channel site="tvtv.us" site_id="12569" lang="en" xmltv_id="TeleOnce.pr@SD">TeleOnce (San Juan, PR)</channel>
+  <channel site="tvtv.us" site_id="12574" lang="en" xmltv_id="FoodNetwork.us@East">Food Network East</channel>
+  <channel site="tvtv.us" site_id="12630" lang="en" xmltv_id="MCAETTV.us@SD">MCAETv</channel>
+  <channel site="tvtv.us" site_id="12719" lang="en" xmltv_id="Starz.us@East">Starz East</channel>
+  <channel site="tvtv.us" site_id="12852" lang="en" xmltv_id="TCM.us@East">TCM</channel>
+  <channel site="tvtv.us" site_id="14202" lang="en" xmltv_id="ChannelI.bd@SD">Channel i</channel>
+  <channel site="tvtv.us" site_id="14321" lang="en" xmltv_id="FX.us@East">FX East</channel>
+  <channel site="tvtv.us" site_id="14764" lang="en" xmltv_id="StarzEncoreClassic.us@East">Starz Encore Classic East</channel>
+  <channel site="tvtv.us" site_id="14765" lang="en" xmltv_id="StarzEncoreWesterns.us@East">Starz Encore Westerns East</channel>
+  <channel site="tvtv.us" site_id="14766" lang="en" xmltv_id="StarzEncoreSuspense.us@East">Starz Encore Suspense East</channel>
+  <channel site="tvtv.us" site_id="14767" lang="en" xmltv_id="TBN.us@East">TBN East</channel>
+  <channel site="tvtv.us" site_id="14776" lang="en" xmltv_id="OutdoorChannel.us@SD">Outdoor Channel</channel>
+  <channel site="tvtv.us" site_id="14781" lang="en" xmltv_id="TVGuide.us@SD">TV Guide</channel>
+  <channel site="tvtv.us" site_id="14870" lang="en" xmltv_id="StarzEncoreBlack.us@East">Starz Encore Black East</channel>
+  <channel site="tvtv.us" site_id="14871" lang="en" xmltv_id="StarzEncoreAction.us@East">Starz Encore Action East</channel>
+  <channel site="tvtv.us" site_id="14873" lang="en" xmltv_id="IFC.us@East">IFC East</channel>
+  <channel site="tvtv.us" site_id="14886" lang="en" xmltv_id="StarzEncoreFamily.us@East">Starz Encore Family East</channel>
+  <channel site="tvtv.us" site_id="14897" lang="en" xmltv_id="BETHer.us@East">BET Her</channel>
+  <channel site="tvtv.us" site_id="14902" lang="en" xmltv_id="HGTV.us@East">HGTV East</channel>
+  <channel site="tvtv.us" site_id="14909" lang="en" xmltv_id="GameShowNetwork.us@East">Game Show Network East</channel>
+  <channel site="tvtv.us" site_id="14929" lang="en" xmltv_id="Fuse.us@East">Fuse East</channel>
+  <channel site="tvtv.us" site_id="14948" lang="en" xmltv_id="ShopHQ.us@SD">ShopHQ</channel>
+  <channel site="tvtv.us" site_id="14996" lang="en" xmltv_id="TelevisionDominicana.us@SD">Televisión Dominicana</channel>
+  <channel site="tvtv.us" site_id="15192" lang="en" xmltv_id="CNNInternational.us@LatinAmerica">CNN International Latin America</channel>
+  <channel site="tvtv.us" site_id="15295" lang="en" xmltv_id="MoviePlex.us@East">MoviePlex East</channel>
+  <channel site="tvtv.us" site_id="15377" lang="en" xmltv_id="FoxDeportes.us@SD">Fox Deportes</channel>
+  <channel site="tvtv.us" site_id="15773" lang="en" xmltv_id="CourtTVMystery.us@SD">Court TV Mystery</channel>
+  <channel site="tvtv.us" site_id="15807" lang="en" xmltv_id="Ovation.us@SD">Ovation</channel>
+  <channel site="tvtv.us" site_id="15969" lang="en" xmltv_id="HTV.us@SD">HTV</channel>
+  <channel site="tvtv.us" site_id="16030" lang="en" xmltv_id="SonySABUSA.us@SD">Sony SAB TV USA</channel>
+  <channel site="tvtv.us" site_id="16056" lang="en" xmltv_id="">Bally Sports Oklahoma</channel>
+  <channel site="tvtv.us" site_id="16062" lang="en" xmltv_id="GreatAmericanFamily.us@SD">Great American Family</channel>
+  <channel site="tvtv.us" site_id="16123" lang="en" xmltv_id="TVLand.us@East">TV Land East</channel>
+  <channel site="tvtv.us" site_id="16125" lang="en" xmltv_id="DiscoveryLife.us@SD">Discovery Life</channel>
+  <channel site="tvtv.us" site_id="16143" lang="en" xmltv_id="News12NewJersey.us@SD">News12 New Jersey</channel>
+  <channel site="tvtv.us" site_id="16153" lang="en" xmltv_id="ShowtimeShowcase.us@East">Showtime Showcase East</channel>
+  <channel site="tvtv.us" site_id="16220" lang="en" xmltv_id="FreeSpeechTV.us@SD">Free Speech TV</channel>
+  <channel site="tvtv.us" site_id="16275" lang="en" xmltv_id="TyCSports.ar@SD">TyC Sports</channel>
+  <channel site="tvtv.us" site_id="16300" lang="en" xmltv_id="MSNBC.us@SD">MSNBC</channel>
+  <channel site="tvtv.us" site_id="16311" lang="en" xmltv_id="StarzEdge.us@East">Starz Edge East</channel>
+  <channel site="tvtv.us" site_id="16325" lang="en" xmltv_id="ClassicArtsShowcase.us@SD">Classic Arts Showcase</channel>
+  <channel site="tvtv.us" site_id="16331" lang="en" xmltv_id="AnimalPlanet.us@East">Animal Planet East</channel>
+  <channel site="tvtv.us" site_id="16361" lang="en" xmltv_id="MTV2.us@East">MTV2 East</channel>
+  <channel site="tvtv.us" site_id="16409" lang="en" xmltv_id="WeTV.us@East">We TV East</channel>
+  <channel site="tvtv.us" site_id="16484" lang="en" xmltv_id="BETGospel.us@SD">BET Gospel</channel>
+  <channel site="tvtv.us" site_id="16585" lang="en" xmltv_id="HBOFamily.us@East">HBO Family East</channel>
+  <channel site="tvtv.us" site_id="16604" lang="en" xmltv_id="JewelryTV.us@SD">Jewelry TV</channel>
+  <channel site="tvtv.us" site_id="16615" lang="en" xmltv_id="InvestigationDiscovery.us@East">Investigation Discovery East</channel>
+  <channel site="tvtv.us" site_id="16616" lang="en" xmltv_id="Science.us@East">Science</channel>
+  <channel site="tvtv.us" site_id="16617" lang="en" xmltv_id="DestinationAmerica.us@SD">Destination America</channel>
+  <channel site="tvtv.us" site_id="16618" lang="en" xmltv_id="DiscoveryFamily.us@SD">Discovery Family</channel>
+  <channel site="tvtv.us" site_id="16715" lang="en" xmltv_id="Pop.us@East">Pop East</channel>
+  <channel site="tvtv.us" site_id="16788" lang="en" xmltv_id="PlayboyTVLatinAmerica.us@SD">Playboy TV Latin America</channel>
+  <channel site="tvtv.us" site_id="16800" lang="en" xmltv_id="ANT1Satellite.gr@SD">ANT1 Satellite</channel>
+  <channel site="tvtv.us" site_id="16833" lang="en" xmltv_id="StarzInBlack.us@East">Starz In Black East</channel>
+  <channel site="tvtv.us" site_id="16834" lang="en" xmltv_id="FYI.us@East">FYI East</channel>
+  <channel site="tvtv.us" site_id="17142" lang="en" xmltv_id="HITN.us@SD">HITN</channel>
+  <channel site="tvtv.us" site_id="17279" lang="en" xmltv_id="YES2Overflow.us@SD">YES2 Overflow</channel>
+  <channel site="tvtv.us" site_id="17596" lang="en" xmltv_id="NBCSportsPhiladelphia.us@SD">NBC Sports Philadelphia</channel>
+  <channel site="tvtv.us" site_id="17663" lang="en" xmltv_id="TheMovieChannelXtra.us@East">The Movie Channel Extra East</channel>
+  <channel site="tvtv.us" site_id="17665" lang="en" xmltv_id="CSPAN3.us@SD">C-SPAN3</channel>
+  <channel site="tvtv.us" site_id="17927" lang="en" xmltv_id="FXX.us@East">FXX East</channel>
+  <channel site="tvtv.us" site_id="18086" lang="en" xmltv_id="ShowtimeExtreme.us@East">Showtime Extreme East</channel>
+  <channel site="tvtv.us" site_id="18279" lang="en" xmltv_id="DisneyXD.us@East">Disney XD East</channel>
+  <channel site="tvtv.us" site_id="18332" lang="en" xmltv_id="BBCAmerica.us@East">BBC America East</channel>
+  <channel site="tvtv.us" site_id="18429" lang="en" xmltv_id="HBOComedy.us@East">HBO Comedy East</channel>
+  <channel site="tvtv.us" site_id="18431" lang="en" xmltv_id="HBOZone.us@East">HBO Zone East</channel>
+  <channel site="tvtv.us" site_id="18433" lang="en" xmltv_id="ActionMax.us@East">ActionMax East</channel>
+  <channel site="tvtv.us" site_id="18435" lang="en" xmltv_id="ThrillerMax.us@East">ThrillerMax East</channel>
+  <channel site="tvtv.us" site_id="18480" lang="en" xmltv_id="LifetimeMovies.us@East">LMN East</channel>
+  <channel site="tvtv.us" site_id="18580" lang="en" xmltv_id="News12Bronx.us@SD">News12 Bronx</channel>
+  <channel site="tvtv.us" site_id="18633" lang="en" xmltv_id="IONTV.us@East">ION TV East</channel>
+  <channel site="tvtv.us" site_id="18715" lang="en" xmltv_id="MTVTr3s.us@East">MTV Tr3s East</channel>
+  <channel site="tvtv.us" site_id="18717" lang="en" xmltv_id="CMTMusic.us@SD">CMT Music</channel>
+  <channel site="tvtv.us" site_id="18718" lang="en" xmltv_id="BETSoul.us@SD">BET Soul</channel>
+  <channel site="tvtv.us" site_id="18749" lang="en" xmltv_id="TheCWPlus.us@Central">CW Plus Central (National Feed)</channel>
+  <channel site="tvtv.us" site_id="18822" lang="en" xmltv_id="VICETV.us@SD">Vice</channel>
+  <channel site="tvtv.us" site_id="18867" lang="en" xmltv_id="IVC.ve@SD">IVC</channel>
+  <channel site="tvtv.us" site_id="18869" lang="en" xmltv_id="PeruMagico.pe@SD">Perú Mágico</channel>
+  <channel site="tvtv.us" site_id="18983" lang="en" xmltv_id="TheCWPlus.us@East">CW Plus East (National Feed)</channel>
+  <channel site="tvtv.us" site_id="18984" lang="en" xmltv_id="TheCWPlus.us@Mountain">CW Plus Mountain (National Feed)</channel>
+  <channel site="tvtv.us" site_id="19026" lang="en" xmltv_id="DaystarTV.us@SD">Daystar TV</channel>
+  <channel site="tvtv.us" site_id="19134" lang="en" xmltv_id="TVPPolonia.pl@SD">TVP Polonia</channel>
+  <channel site="tvtv.us" site_id="19211" lang="en" xmltv_id="NickJr.us@East">Nick Jr East</channel>
+  <channel site="tvtv.us" site_id="19247" lang="en" xmltv_id="DiscoveryenEspanol.us@SD">Discovery Channel en Español</channel>
+  <channel site="tvtv.us" site_id="19310" lang="en" xmltv_id="MusicChoiceAlternative.us@SD">Music Choice Alternative</channel>
+  <channel site="tvtv.us" site_id="19311" lang="en" xmltv_id="MusicChoiceClassicRock.us@SD">Music Choice Classic Rock</channel>
+  <channel site="tvtv.us" site_id="19312" lang="en" xmltv_id="MusicChoiceRock.us@SD">Music Choice Rock</channel>
+  <channel site="tvtv.us" site_id="19313" lang="en" xmltv_id="MusicChoiceHitList.us@SD">Music Choice Hit List</channel>
+  <channel site="tvtv.us" site_id="19314" lang="en" xmltv_id="MusicChoiceLoveSongs.us@SD">Music Choice Love Songs</channel>
+  <channel site="tvtv.us" site_id="19315" lang="en" xmltv_id="MusicChoiceSoftRock.us@SD">Music Choice Soft Rock</channel>
+  <channel site="tvtv.us" site_id="19320" lang="en" xmltv_id="MusicChoiceMexicana.us@SD">Music Choice Mexicana</channel>
+  <channel site="tvtv.us" site_id="19325" lang="en" xmltv_id="MusicChoicePopCountry.us@SD">Music Choice Pop &amp; Country</channel>
+  <channel site="tvtv.us" site_id="19326" lang="en" xmltv_id="MusicChoice70s.us@SD">Music Choice 70s</channel>
+  <channel site="tvtv.us" site_id="19327" lang="en" xmltv_id="MusicChoiceTeenBeats.us@SD">Music Choice Teen Beats</channel>
+  <channel site="tvtv.us" site_id="19329" lang="en" xmltv_id="MusicChoiceToddlerTunes.us@SD">Music Choice Toddler Tunes</channel>
+  <channel site="tvtv.us" site_id="19330" lang="en" xmltv_id="MusicChoiceKidzOnly.us@SD">Music Choice Kids Only!</channel>
+  <channel site="tvtv.us" site_id="19332" lang="en" xmltv_id="MusicChoiceIndie.us@SD">Music Choice Indie</channel>
+  <channel site="tvtv.us" site_id="19335" lang="en" xmltv_id="MusicChoiceTropicales.us@SD">Music Choice Tropicales</channel>
+  <channel site="tvtv.us" site_id="19336" lang="en" xmltv_id="MusicChoice90s.us@SD">Music Choice 90s</channel>
+  <channel site="tvtv.us" site_id="19342" lang="en" xmltv_id="MusicChoiceCountryHits.us@SD">Music Choice Country Hits</channel>
+  <channel site="tvtv.us" site_id="19344" lang="en" xmltv_id="MusicChoiceRBClassics.us@SD">Music Choice R&amp;B Classics</channel>
+  <channel site="tvtv.us" site_id="19346" lang="en" xmltv_id="MusicChoiceMax.us@SD">Music Choice Max</channel>
+  <channel site="tvtv.us" site_id="19357" lang="en" xmltv_id="MusicChoiceJazz.us@SD">Music Choice Jazz</channel>
+  <channel site="tvtv.us" site_id="19362" lang="en" xmltv_id="MusicChoiceSmoothJazz.us@SD">Music Choice Smooth Jazz</channel>
+  <channel site="tvtv.us" site_id="19590" lang="en" xmltv_id="KITV41.us@HD">ABC (KITV) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="19634" lang="en" xmltv_id="StarzCinema.us@East">Starz Cinema East</channel>
+  <channel site="tvtv.us" site_id="19739" lang="en" xmltv_id="">Bally Sports Kansas City</channel>
+  <channel site="tvtv.us" site_id="19979" lang="en" xmltv_id="ARTAmerica.sa@SD">ART America</channel>
+  <channel site="tvtv.us" site_id="20036" lang="en" xmltv_id="OneCaribbeanTelevision.us@SD">One Caribbean Television</channel>
+  <channel site="tvtv.us" site_id="20286" lang="en" xmltv_id="Enlace.cr@SD">Enlace</channel>
+  <channel site="tvtv.us" site_id="20622" lang="en" xmltv_id="ShoxBet.us@East">SHOxBET East</channel>
+  <channel site="tvtv.us" site_id="20687" lang="en" xmltv_id="ESPNCollegeExtra1.us@SD">ESPN College Extra 1</channel>
+  <channel site="tvtv.us" site_id="20688" lang="en" xmltv_id="ESPNCollegeExtra2.us@SD">ESPN College Extra 2</channel>
+  <channel site="tvtv.us" site_id="20689" lang="en" xmltv_id="ESPNCollegeExtra3.us@SD">ESPN College Extra 3</channel>
+  <channel site="tvtv.us" site_id="20690" lang="en" xmltv_id="ESPNCollegeExtra4.us@SD">ESPN College Extra 4</channel>
+  <channel site="tvtv.us" site_id="20691" lang="en" xmltv_id="ESPNCollegeExtra5.us@SD">ESPN College Extra 5</channel>
+  <channel site="tvtv.us" site_id="20692" lang="en" xmltv_id="ESPNCollegeExtra6.us@SD">ESPN College Extra 6</channel>
+  <channel site="tvtv.us" site_id="20810" lang="en" xmltv_id="NBALeaguePass1.us@SD">NBA League Pass 1</channel>
+  <channel site="tvtv.us" site_id="20811" lang="en" xmltv_id="NBALeaguePass2.us@SD">NBA League Pass 2</channel>
+  <channel site="tvtv.us" site_id="20812" lang="en" xmltv_id="NBALeaguePass3.us@SD">NBA League Pass 3</channel>
+  <channel site="tvtv.us" site_id="21044" lang="en" xmltv_id="NBALeaguePass4.us@SD">NBA League Pass 4</channel>
+  <channel site="tvtv.us" site_id="21045" lang="en" xmltv_id="NBALeaguePass5.us@SD">NBA League Pass 5</channel>
+  <channel site="tvtv.us" site_id="21046" lang="en" xmltv_id="NBALeaguePass6.us@SD">NBA League Pass 6</channel>
+  <channel site="tvtv.us" site_id="21047" lang="en" xmltv_id="NBALeaguePass7.us@SD">NBA League Pass 7</channel>
+  <channel site="tvtv.us" site_id="21048" lang="en" xmltv_id="NBALeaguePass8.us@SD">NBA League Pass 8</channel>
+  <channel site="tvtv.us" site_id="21049" lang="en" xmltv_id="NBALeaguePass9.us@SD">NBA League Pass 9</channel>
+  <channel site="tvtv.us" site_id="21115" lang="en" xmltv_id="NBALeaguePass10.us@SD">NBA League Pass 10</channel>
+  <channel site="tvtv.us" site_id="21345" lang="en" xmltv_id="FanDuelTV.us@SD">FanDuel TV</channel>
+  <channel site="tvtv.us" site_id="21450" lang="en" xmltv_id="LinkTV.us@SD">Link TV</channel>
+  <channel site="tvtv.us" site_id="21484" lang="en" xmltv_id="Oxygen.us@East">Oxygen East</channel>
+  <channel site="tvtv.us" site_id="21781" lang="en" xmltv_id="TheWordNetwork.us@SD">The Word Network</channel>
+  <channel site="tvtv.us" site_id="21883" lang="en" xmltv_id="Boomerang.us@SD">Boomerang</channel>
+  <channel site="tvtv.us" site_id="22561" lang="en" xmltv_id="MTVClassic.us@East">MTV Classic East</channel>
+  <channel site="tvtv.us" site_id="24378" lang="en" xmltv_id="MusicChoiceRap.us@SD">Music Choice Rap</channel>
+  <channel site="tvtv.us" site_id="24380" lang="en" xmltv_id="MusicChoicePopLatino.us@SD">Music Choice Pop Latino</channel>
+  <channel site="tvtv.us" site_id="24382" lang="en" xmltv_id="MusicChoiceMusicUrbana.us@SD">Music Choice Musica Urbana</channel>
+  <channel site="tvtv.us" site_id="24405" lang="en" xmltv_id="MusicChoice80s.us@SD">Music Choice 80s</channel>
+  <channel site="tvtv.us" site_id="24465" lang="en" xmltv_id="B4UMusic.in@USA">B4U Music USA</channel>
+  <channel site="tvtv.us" site_id="25148" lang="en" xmltv_id="RFDTV.us@SD">RFD-TV</channel>
+  <channel site="tvtv.us" site_id="25270" lang="en" xmltv_id="ShowtimeNext.us@East">Showtime Next East</channel>
+  <channel site="tvtv.us" site_id="25272" lang="en" xmltv_id="ShowtimeWomen.us@East">Showtime Women East</channel>
+  <channel site="tvtv.us" site_id="25274" lang="en" xmltv_id="ShowtimeFamilyZone.us@East">Showtime Family Zone East</channel>
+  <channel site="tvtv.us" site_id="25595" lang="en" xmltv_id="ESPNDeportes.us@SD">ESPN Deportes</channel>
+  <channel site="tvtv.us" site_id="25620" lang="en" xmltv_id="5StarMax.us@East">5 StarMax East</channel>
+  <channel site="tvtv.us" site_id="25621" lang="en" xmltv_id="MovieMax.us@East">MovieMax East</channel>
+  <channel site="tvtv.us" site_id="25622" lang="en" xmltv_id="OuterMax.us@East">OuterMax East</channel>
+  <channel site="tvtv.us" site_id="26028" lang="en" xmltv_id="ATTSportsNetPittsburgh.us@SD">AT&amp;T SportsNet Pittsburgh</channel>
+  <channel site="tvtv.us" site_id="26077" lang="en" xmltv_id="StadiumCollegeSports.us@Atlantic">Stadium College Sports Atlantic</channel>
+  <channel site="tvtv.us" site_id="26078" lang="en" xmltv_id="StadiumCollegeSports.us@Central">Stadium College Sports Central</channel>
+  <channel site="tvtv.us" site_id="26079" lang="en" xmltv_id="StadiumCollegeSports.us@Pacific">Stadium College Sports Pacific</channel>
+  <channel site="tvtv.us" site_id="26221" lang="en" xmltv_id="MusicChoiceReggae.us@SD">Music Choice Reggae</channel>
+  <channel site="tvtv.us" site_id="26228" lang="en" xmltv_id="MusicChoiceY2K.us@SD">Music Choice Y2K</channel>
+  <channel site="tvtv.us" site_id="26229" lang="en" xmltv_id="MusicChoiceGospel.us@SD">Music Choice Gospel</channel>
+  <channel site="tvtv.us" site_id="26230" lang="en" xmltv_id="MusicChoiceHipHopandRB.us@SD">Music Choice Hip-Hop and R&amp;B</channel>
+  <channel site="tvtv.us" site_id="26232" lang="en" xmltv_id="MusicChoiceThrowbackJamz.us@SD">Music Choice Throwback Jamz</channel>
+  <channel site="tvtv.us" site_id="26248" lang="en" xmltv_id="MusicChoiceTodaysCountry.us@SD">Music Choice Today&#x27;s Country</channel>
+  <channel site="tvtv.us" site_id="26250" lang="en" xmltv_id="MusicChoiceRBSoul.us@SD">Music Choice R&amp;B Soul</channel>
+  <channel site="tvtv.us" site_id="26643" lang="en" xmltv_id="GemShoppingNetwork.us@SD">Gem Shopping Network</channel>
+  <channel site="tvtv.us" site_id="26849" lang="en" xmltv_id="CNBCWorld.us@SD">CNBC World</channel>
+  <channel site="tvtv.us" site_id="27512" lang="en" xmltv_id="News12Conneticut.us@SD">News12 Conneticut</channel>
+  <channel site="tvtv.us" site_id="27549" lang="en" xmltv_id="TheIsraeliNetwork.il@SD">The Israeli Network</channel>
+  <channel site="tvtv.us" site_id="29058" lang="en" xmltv_id="UniMas.us@East">UniMás Este</channel>
+  <channel site="tvtv.us" site_id="29114" lang="en" xmltv_id="">CGTN America</channel>
+  <channel site="tvtv.us" site_id="29328" lang="en" xmltv_id="HillsongChannel.us@SD">Hillsong Channel</channel>
+  <channel site="tvtv.us" site_id="29612" lang="en" xmltv_id="LifetimeRealWomen.us@SD">Lifetime Real Women East</channel>
+  <channel site="tvtv.us" site_id="30017" lang="en" xmltv_id="YesNetwork.us@SD">YES Network</channel>
+  <channel site="tvtv.us" site_id="30156" lang="en" xmltv_id="CookingChannel.us@SD">Cooking Channel</channel>
+  <channel site="tvtv.us" site_id="30419" lang="en" xmltv_id="BETJams.us@SD">BET Jams</channel>
+  <channel site="tvtv.us" site_id="30420" lang="en" xmltv_id="Nicktoons.us@East">Nicktoons East</channel>
+  <channel site="tvtv.us" site_id="30970" lang="en" xmltv_id="">Bally Sports Ohio+</channel>
+  <channel site="tvtv.us" site_id="31030" lang="en" xmltv_id="MusicChoiceMetal.us@SD">Music Choice Metal</channel>
+  <channel site="tvtv.us" site_id="31046" lang="en" xmltv_id="">Motortrend</channel>
+  <channel site="tvtv.us" site_id="31530" lang="en" xmltv_id="KHNL131.us@HD">NBC (KHNL) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="31532" lang="en" xmltv_id="KHIITV91.us@HD">MyNetworkTV (KHII-TV) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="31538" lang="en" xmltv_id="OSNYahala.ae@SD">OSN Ya Hala</channel>
+  <channel site="tvtv.us" site_id="31541" lang="en" xmltv_id="UniMas.us@West">Unimas West (National Feed)</channel>
+  <channel site="tvtv.us" site_id="31547" lang="en" xmltv_id="BallySportsArizonaExtra.us@SD">Bally Sports Arizona Extra</channel>
+  <channel site="tvtv.us" site_id="31825" lang="en" xmltv_id="KPMFLD267.us@SD">KPMF-LD7 Paragould, AR</channel>
+  <channel site="tvtv.us" site_id="31969" lang="en" xmltv_id="AlResalah.sa@SD">Al Resalah</channel>
+  <channel site="tvtv.us" site_id="31973" lang="en" xmltv_id="RotanaKhalijia.sa@SD">Rotana Khalijia</channel>
+  <channel site="tvtv.us" site_id="31977" lang="en" xmltv_id="RotanaClassic.sa@SD">Rotana Classic</channel>
+  <channel site="tvtv.us" site_id="32161" lang="en" xmltv_id="GolTVUSA.us@SD">Gol TV</channel>
+  <channel site="tvtv.us" site_id="32258" lang="en" xmltv_id="FanDuelRacing.us@SD">FanDuel Racing</channel>
+  <channel site="tvtv.us" site_id="32281" lang="en" xmltv_id="NBATV.us@SD">NBA TV</channel>
+  <channel site="tvtv.us" site_id="32345" lang="en" xmltv_id="ZeeZest.in@SD">Zee Zest</channel>
+  <channel site="tvtv.us" site_id="32518" lang="en" xmltv_id="ShepherdsChapel.us@SD">Shepherd&#x27;s Chapel</channel>
+  <channel site="tvtv.us" site_id="32933" lang="en" xmltv_id="HBOFamilyLatinAmerica.us@SD">HBO Family Latinoamérica</channel>
+  <channel site="tvtv.us" site_id="33227" lang="en" xmltv_id="TVEInternacionalAmerica.es@SD">TVE Internacional América</channel>
+  <channel site="tvtv.us" site_id="33377" lang="en" xmltv_id="ZeeTVUSA.us@SD">Zee TV USA</channel>
+  <channel site="tvtv.us" site_id="33395" lang="en" xmltv_id="TennisChannel.us@SD">Tennis Channel</channel>
+  <channel site="tvtv.us" site_id="33453" lang="en" xmltv_id="PBS.us@East">PBS East (National Feed)</channel>
+  <channel site="tvtv.us" site_id="33628" lang="en" xmltv_id="DePeliculaClasico.mx@SD">De Pelicula Clasico</channel>
+  <channel site="tvtv.us" site_id="33640" lang="en" xmltv_id="FolkTV.us@SD">Folk TV</channel>
+  <channel site="tvtv.us" site_id="33668" lang="en" xmltv_id="HDNetMovies.us@SD">HDNet Movies</channel>
+  <channel site="tvtv.us" site_id="33691" lang="en" xmltv_id="">GolTV English</channel>
+  <channel site="tvtv.us" site_id="33930" lang="en" xmltv_id="SportsmanChannel.us@SD">Sportsman Channel</channel>
+  <channel site="tvtv.us" site_id="34169" lang="en" xmltv_id="PositivTV.us@SD">Positiv TV</channel>
+  <channel site="tvtv.us" site_id="34296" lang="en" xmltv_id="VePlus.ve@Venezuela">Venevisión Plus</channel>
+  <channel site="tvtv.us" site_id="34331" lang="en" xmltv_id="KGMB91.us@HD">CBS (KGMB) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="34394" lang="en" xmltv_id="TeleHit.mx@SD">TeleHit</channel>
+  <channel site="tvtv.us" site_id="34466" lang="en" xmltv_id="NASATVUHD.us@SD">NASA TV UHD</channel>
+  <channel site="tvtv.us" site_id="34863" lang="en" xmltv_id="AyMSports.mx@SD">AyM Sports</channel>
+  <channel site="tvtv.us" site_id="34871" lang="en" xmltv_id="WXXATV234.us@SD">WXXA-TV4</channel>
+  <channel site="tvtv.us" site_id="34901" lang="en" xmltv_id="StarzComedy.us@East">Starz Comedy East</channel>
+  <channel site="tvtv.us" site_id="35271" lang="en" xmltv_id="ETTVDrama.tw@SD">ETTV Drama</channel>
+  <channel site="tvtv.us" site_id="35273" lang="en" xmltv_id="ETTVNews.tw@SD">ETTV News</channel>
+  <channel site="tvtv.us" site_id="35401" lang="en" xmltv_id="DePeliculaUS.us@SD">De Pelicula</channel>
+  <channel site="tvtv.us" site_id="35513" lang="en" xmltv_id="TVOne.us@SD">TV One</channel>
+  <channel site="tvtv.us" site_id="35751" lang="en" xmltv_id="Studiocanal.fr@SD">StudioCanal</channel>
+  <channel site="tvtv.us" site_id="36130" lang="en" xmltv_id="KHONTV21.us@HD">FOX (KHON-TV) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="40821" lang="en" xmltv_id="CNNInternational.us@AsiaPacific">CNN International Asia</channel>
+  <channel site="tvtv.us" site_id="42642" lang="en" xmltv_id="TNT.us@East">TNT East</channel>
+  <channel site="tvtv.us" site_id="43335" lang="en" xmltv_id="MusicChoicePopHits.us@SD">Music Choice Pop Hits</channel>
+  <channel site="tvtv.us" site_id="43389" lang="en" xmltv_id="RTRPlaneta.ru@SD">RTR Planeta</channel>
+  <channel site="tvtv.us" site_id="43452" lang="en" xmltv_id="KIKU201.us@HD">KIKU (KIKU) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="43771" lang="en" xmltv_id="DW.de@English">DW English OTA</channel>
+  <channel site="tvtv.us" site_id="44228" lang="en" xmltv_id="MTVU.us@SD">MTV U</channel>
+  <channel site="tvtv.us" site_id="44263" lang="en" xmltv_id="AltitudeSports.us@SD">Altitude Sports</channel>
+  <channel site="tvtv.us" site_id="44322" lang="en" xmltv_id="WAPATV41.pr@HD">WAPA America</channel>
+  <channel site="tvtv.us" site_id="44447" lang="en" xmltv_id="NBCSportsChicago.us@SD">NBC Sports Chicago</channel>
+  <channel site="tvtv.us" site_id="44448" lang="en" xmltv_id="CentroamericaTV.us@SD">CentroAmérica TV</channel>
+  <channel site="tvtv.us" site_id="44889" lang="en" xmltv_id="StarBharat.in@SD">Star Bharat</channel>
+  <channel site="tvtv.us" site_id="44895" lang="en" xmltv_id="AWE.us@SD">AWE</channel>
+  <channel site="tvtv.us" site_id="44917" lang="en" xmltv_id="NBCSportsCalifornia.us@SD">NBC Sports California</channel>
+  <channel site="tvtv.us" site_id="44940" lang="en" xmltv_id="UpTV.us@SD">UPtv</channel>
+  <channel site="tvtv.us" site_id="45169" lang="en" xmltv_id="">MavTV</channel>
+  <channel site="tvtv.us" site_id="45507" lang="en" xmltv_id="ESPN2.us@SD">ESPN 2</channel>
+  <channel site="tvtv.us" site_id="45654" lang="en" xmltv_id="ESPNU.us@SD">ESPNU</channel>
+  <channel site="tvtv.us" site_id="45901" lang="en" xmltv_id="AFNSports.us@SD">AFN Sports</channel>
+  <channel site="tvtv.us" site_id="45948" lang="en" xmltv_id="NBCSportsChicagoPlus.us@SD">NBC Sports Chicago Plus</channel>
+  <channel site="tvtv.us" site_id="46292" lang="en" xmltv_id="News12Brooklyn.us@SD">News12 Brooklyn</channel>
+  <channel site="tvtv.us" site_id="46463" lang="en" xmltv_id="GMAPinoyTV.ph@SD">GMA Pinoy TV</channel>
+  <channel site="tvtv.us" site_id="46634" lang="en" xmltv_id="AFNSports2.us@SD">AFN Sports 2</channel>
+  <channel site="tvtv.us" site_id="46640" lang="en" xmltv_id="News12HudsonValley.us@SD">News12 Hudson Valley</channel>
+  <channel site="tvtv.us" site_id="46762" lang="en" xmltv_id="Logo.us@East">Logo East</channel>
+  <channel site="tvtv.us" site_id="46817" lang="en" xmltv_id="MASN.us@SD">MASN</channel>
+  <channel site="tvtv.us" site_id="47156" lang="en" xmltv_id="KBFDDT321.us@HD">KBFD TV (KBFD-DT) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="47472" lang="en" xmltv_id="TheAfricaChannel.us@SD">The Africa Channel</channel>
+  <channel site="tvtv.us" site_id="47540" lang="en" xmltv_id="UniversalKids.us@East">Universal Kids</channel>
+  <channel site="tvtv.us" site_id="48512" lang="en" xmltv_id="AajTak.in@SD">Aaj Tak</channel>
+  <channel site="tvtv.us" site_id="48836" lang="en" xmltv_id="NDTV24x7.in@SD">NDTV 24x7</channel>
+  <channel site="tvtv.us" site_id="48990" lang="en" xmltv_id="Create.us@SD">Create</channel>
+  <channel site="tvtv.us" site_id="48999" lang="en" xmltv_id="MilitaryHistory.us@SD">Military History Channel</channel>
+  <channel site="tvtv.us" site_id="49097" lang="en" xmltv_id="NRBTV.us@SD">NRBTV</channel>
+  <channel site="tvtv.us" site_id="49141" lang="en" xmltv_id="MTVLive.us@SD">MTV Live</channel>
+  <channel site="tvtv.us" site_id="49208" lang="en" xmltv_id="SmileTV.us@SD">Smile TV</channel>
+  <channel site="tvtv.us" site_id="49266" lang="en" xmltv_id="HopeChannelNorthAmerica.us@SD">Hope Channel</channel>
+  <channel site="tvtv.us" site_id="49411" lang="en" xmltv_id="CaribVision.bb@SD">CaribVision</channel>
+  <channel site="tvtv.us" site_id="49438" lang="en" xmltv_id="NationalGeographic.us@East">National Geographic East</channel>
+  <channel site="tvtv.us" site_id="49492" lang="en" xmltv_id="SkyLinkTV.us@SD">Sky Link TV</channel>
+  <channel site="tvtv.us" site_id="49751" lang="en" xmltv_id="IndiePlex.us@East">IndiePlex East</channel>
+  <channel site="tvtv.us" site_id="49767" lang="en" xmltv_id="RetroPlex.us@East">RetroPlex East</channel>
+  <channel site="tvtv.us" site_id="49918" lang="en" xmltv_id="KHET111.us@HD">PBS (KHET) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="50135" lang="en" xmltv_id="NHLCenterIce1.us@SD">NHL Center Ice 1</channel>
+  <channel site="tvtv.us" site_id="50136" lang="en" xmltv_id="NHLCenterIce2.us@SD">NHL Center Ice 2</channel>
+  <channel site="tvtv.us" site_id="50137" lang="en" xmltv_id="NHLCenterIce3.us@SD">NHL Center Ice 3</channel>
+  <channel site="tvtv.us" site_id="50138" lang="en" xmltv_id="NHLCenterIce4.us@SD">NHL Center Ice 4</channel>
+  <channel site="tvtv.us" site_id="50139" lang="en" xmltv_id="NHLCenterIce5.us@SD">NHL Center Ice 5</channel>
+  <channel site="tvtv.us" site_id="50140" lang="en" xmltv_id="NHLCenterIce6.us@SD">NHL Center Ice 6</channel>
+  <channel site="tvtv.us" site_id="50167" lang="en" xmltv_id="">Bally Sports Great Lakes</channel>
+  <channel site="tvtv.us" site_id="50180" lang="en" xmltv_id="AmericasAuctionChannel.us@SD">America&#x27;s Auction Channel</channel>
+  <channel site="tvtv.us" site_id="50270" lang="en" xmltv_id="MBCAmerica.us@SD">MBC America</channel>
+  <channel site="tvtv.us" site_id="50338" lang="en" xmltv_id="BabyFirst.us@US">BabyFirst TV</channel>
+  <channel site="tvtv.us" site_id="50417" lang="en" xmltv_id="KHNL132.us@HD">K5 (KHNL-DT2) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="50671" lang="en" xmltv_id="StarzKidsFamily.us@East">Starz Kids &amp; Family East</channel>
+  <channel site="tvtv.us" site_id="50914" lang="en" xmltv_id="Toku.us@SD">Toku</channel>
+  <channel site="tvtv.us" site_id="51306" lang="en" xmltv_id="CW.us@East">CW East</channel>
+  <channel site="tvtv.us" site_id="51307" lang="en" xmltv_id="MNT.us@East">MNT East</channel>
+  <channel site="tvtv.us" site_id="52199" lang="en" xmltv_id="Reelz.us@SD">Reelz</channel>
+  <channel site="tvtv.us" site_id="52208" lang="en" xmltv_id="ViendoMovies.us@SD">ViendoMovies</channel>
+  <channel site="tvtv.us" site_id="52697" lang="en" xmltv_id="GODTV.uk@SD">GodTV</channel>
+  <channel site="tvtv.us" site_id="54247" lang="en" xmltv_id="KHONTV22.us@HD">CW (KHON-DT2) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="54253" lang="en" xmltv_id="SETInternational.tw@SD">SET International</channel>
+  <channel site="tvtv.us" site_id="54348" lang="en" xmltv_id="NHLCenterIce7.us@SD">NHL Center Ice 7</channel>
+  <channel site="tvtv.us" site_id="54349" lang="en" xmltv_id="NHLCenterIce8.us@SD">NHL Center Ice 8</channel>
+  <channel site="tvtv.us" site_id="54867" lang="en" xmltv_id="Bandamax.mx@SD">Bandamax</channel>
+  <channel site="tvtv.us" site_id="55241" lang="en" xmltv_id="IONPlus.us@East">ION Plus East</channel>
+  <channel site="tvtv.us" site_id="55433" lang="en" xmltv_id="MASN2.us@SD">MASN2</channel>
+  <channel site="tvtv.us" site_id="55875" lang="en" xmltv_id="NBCSportsChicagoPlus2.us@SD">NBC Sports Chicago Plus 2</channel>
+  <channel site="tvtv.us" site_id="55988" lang="en" xmltv_id="KITV42.us@HD">MeTV (KITV-DT2) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="56032" lang="en" xmltv_id="ShopLC.us@SD">Shop LC</channel>
+  <channel site="tvtv.us" site_id="56193" lang="en" xmltv_id="AccuWeatherNOW.us@SD">AccuWeather</channel>
+  <channel site="tvtv.us" site_id="56425" lang="en" xmltv_id="NationalGeographicWild.us@East">National Geographic Wild East</channel>
+  <channel site="tvtv.us" site_id="56783" lang="en" xmltv_id="BigTenNetwork.us@SD">Big Ten Network</channel>
+  <channel site="tvtv.us" site_id="56905" lang="en" xmltv_id="DiscoveryChannel.us@East">Discovery Channel East</channel>
+  <channel site="tvtv.us" site_id="57708" lang="en" xmltv_id="History.us@East">History East</channel>
+  <channel site="tvtv.us" site_id="58320" lang="en" xmltv_id="NewsmaxTV.us@SD">Newsmax TV</channel>
+  <channel site="tvtv.us" site_id="58333" lang="en" xmltv_id="RTAmerica.us@SD">RT America</channel>
+  <channel site="tvtv.us" site_id="58515" lang="en" xmltv_id="TBS.us@East">TBS East</channel>
+  <channel site="tvtv.us" site_id="58532" lang="en" xmltv_id="SmithsonianChannel.us@East">Smithsonian</channel>
+  <channel site="tvtv.us" site_id="58570" lang="en" xmltv_id="NHLNetwork.us@SD">NHL Network</channel>
+  <channel site="tvtv.us" site_id="58595" lang="en" xmltv_id="LivingFaithTV.us@SD">Living Faith TV</channel>
+  <channel site="tvtv.us" site_id="58623" lang="en" xmltv_id="Syfy.us@East">Syfy East</channel>
+  <channel site="tvtv.us" site_id="58631" lang="en" xmltv_id="CNNenEspanol.us@SD">CNN en Español</channel>
+  <channel site="tvtv.us" site_id="58646" lang="en" xmltv_id="CNN.us@SD">CNN</channel>
+  <channel site="tvtv.us" site_id="58649" lang="en" xmltv_id="FoxBusinessNetwork.us@SD">Fox Business</channel>
+  <channel site="tvtv.us" site_id="58698" lang="en" xmltv_id="MegaTV.us@SD">Mega TV</channel>
+  <channel site="tvtv.us" site_id="58799" lang="en" xmltv_id="RevenueFrontier.us@SD">Revenue Frontier</channel>
+  <channel site="tvtv.us" site_id="59036" lang="en" xmltv_id="TeenNick.us@East">TeenNick</channel>
+  <channel site="tvtv.us" site_id="59155" lang="en" xmltv_id="NHKWorldJapan.jp@SD">NHK World (US-National)</channel>
+  <channel site="tvtv.us" site_id="59250" lang="en" xmltv_id="CBSSportsNetworkUSA.us@SD">CBS Sports Network</channel>
+  <channel site="tvtv.us" site_id="59303" lang="en" xmltv_id="TravelChannel.us@East">The Travel Channel</channel>
+  <channel site="tvtv.us" site_id="59305" lang="en" xmltv_id="FoxSports2LatinAmerica.us@South">Fox Sports 2</channel>
+  <channel site="tvtv.us" site_id="59576" lang="en" xmltv_id="OnTV4U.us@SD">OnTV4U</channel>
+  <channel site="tvtv.us" site_id="59976" lang="en" xmltv_id="ESPNews.us@SD">ESPNEWS</channel>
+  <channel site="tvtv.us" site_id="60048" lang="en" xmltv_id="CartoonNetwork.us@East">Cartoon Network East</channel>
+  <channel site="tvtv.us" site_id="60111" lang="en" xmltv_id="PursuitChannel.us@SD">Pursuit Channel</channel>
+  <channel site="tvtv.us" site_id="60150" lang="en" xmltv_id="Lifetime.us@East">Lifetime East</channel>
+  <channel site="tvtv.us" site_id="60152" lang="en" xmltv_id="GMALifeTV.ph@SD">GMA Life TV</channel>
+  <channel site="tvtv.us" site_id="60165" lang="en" xmltv_id="JewishLifeTelevision.us@SD">Jewish Life Television</channel>
+  <channel site="tvtv.us" site_id="60179" lang="en" xmltv_id="FoxNewsChannel.us@SD">FOX News</channel>
+  <channel site="tvtv.us" site_id="60324" lang="en" xmltv_id="">Dream 2</channel>
+  <channel site="tvtv.us" site_id="60878" lang="en" xmltv_id="MLBExtraInnings2.us@SD">MLB Extra Innings 2</channel>
+  <channel site="tvtv.us" site_id="60879" lang="en" xmltv_id="MLBExtraInnings3.us@SD">MLB Extra Innings 3</channel>
+  <channel site="tvtv.us" site_id="60880" lang="en" xmltv_id="MLBExtraInnings4.us@SD">MLB Extra Innings 4</channel>
+  <channel site="tvtv.us" site_id="60881" lang="en" xmltv_id="MLBExtraInnings5.us@SD">MLB Extra Innings 5</channel>
+  <channel site="tvtv.us" site_id="60882" lang="en" xmltv_id="MLBExtraInnings6.us@SD">MLB Extra Innings 6</channel>
+  <channel site="tvtv.us" site_id="60883" lang="en" xmltv_id="MLBExtraInnings7.us@SD">MLB Extra Innings 7</channel>
+  <channel site="tvtv.us" site_id="60884" lang="en" xmltv_id="MLBExtraInnings8.us@SD">MLB Extra Innings 8</channel>
+  <channel site="tvtv.us" site_id="60885" lang="en" xmltv_id="MLBExtraInnings9.us@SD">MLB Extra Innings 9</channel>
+  <channel site="tvtv.us" site_id="60887" lang="en" xmltv_id="MLBExtraInnings10.us@SD">MLB Extra Innings 10</channel>
+  <channel site="tvtv.us" site_id="61522" lang="en" xmltv_id="HallmarkMoviesMysteries.us@East">Hallmark Movies &amp; Mysteries East</channel>
+  <channel site="tvtv.us" site_id="61775" lang="en" xmltv_id="ThisTV.us@SD">This TV</channel>
+  <channel site="tvtv.us" site_id="61776" lang="en" xmltv_id="Pasiones.us@SD">Pasiones US</channel>
+  <channel site="tvtv.us" site_id="61854" lang="en" xmltv_id="GolfChannel.us@SD">Golf Channel</channel>
+  <channel site="tvtv.us" site_id="62079" lang="en" xmltv_id="MLBNetwork.us@SD">MLB Network</channel>
+  <channel site="tvtv.us" site_id="62125" lang="en" xmltv_id="CineEstelar.us@SD">Cine Estelar</channel>
+  <channel site="tvtv.us" site_id="62900" lang="en" xmltv_id="CatholicFaithNetwork.us@SD">Catholic Faith Network</channel>
+  <channel site="tvtv.us" site_id="63360" lang="en" xmltv_id="NDTVGoodTimes.in@SD">NDTV Good Times</channel>
+  <channel site="tvtv.us" site_id="63516" lang="en" xmltv_id="NESNPlus.us@SD">NESN Plus</channel>
+  <channel site="tvtv.us" site_id="63739" lang="en" xmltv_id="WAPATV42.pr@HD">WAPA Deportes</channel>
+  <channel site="tvtv.us" site_id="65064" lang="en" xmltv_id="EstrellaTV.us@SD">Estrella TV</channel>
+  <channel site="tvtv.us" site_id="65095" lang="en" xmltv_id="EsperanzaTV.us@SD">Esperanza TV</channel>
+  <channel site="tvtv.us" site_id="65466" lang="en" xmltv_id="">Bally Sports South Georgia</channel>
+  <channel site="tvtv.us" site_id="65669" lang="en" xmltv_id="MGMPlus.us@East">MGM+ East</channel>
+  <channel site="tvtv.us" site_id="66157" lang="en" xmltv_id="tvK2.us@SD">TVK2</channel>
+  <channel site="tvtv.us" site_id="66419" lang="en" xmltv_id="MTVLive.uk@SD">MTV Live (International)</channel>
+  <channel site="tvtv.us" site_id="66879" lang="en" xmltv_id="FoxSoccerPlus.us@SD">Fox Soccer Plus</channel>
+  <channel site="tvtv.us" site_id="66899" lang="en" xmltv_id="HumTV.pk@SD">Hum TV</channel>
+  <channel site="tvtv.us" site_id="67068" lang="en" xmltv_id="JayaPlus.in@SD">Jaya Plus</channel>
+  <channel site="tvtv.us" site_id="67375" lang="en" xmltv_id="MagnoliaNetwork.us@East">Magnolia Network East</channel>
+  <channel site="tvtv.us" site_id="67676" lang="en" xmltv_id="SBNTV.us@SD">SonLife Broadcasting Network</channel>
+  <channel site="tvtv.us" site_id="68049" lang="en" xmltv_id="Univision.us@East">Univision East (National Feed)</channel>
+  <channel site="tvtv.us" site_id="68409" lang="en" xmltv_id="MGMPlusDriveIn.us@SD">MGM+ Drive-In</channel>
+  <channel site="tvtv.us" site_id="68601" lang="en" xmltv_id="KUPU561.us@HD">CatholicTV (KUPU) Waimanalo, HI</channel>
+  <channel site="tvtv.us" site_id="68605" lang="en" xmltv_id="Willow.us@SD">Willow</channel>
+  <channel site="tvtv.us" site_id="69091" lang="en" xmltv_id="SonyMovies.us@SD">Sony Movies</channel>
+  <channel site="tvtv.us" site_id="69529" lang="en" xmltv_id="MediasetItalia.it@SD">Mediaset Italia</channel>
+  <channel site="tvtv.us" site_id="69629" lang="en" xmltv_id="">Bally Sports Detroit Extra</channel>
+  <channel site="tvtv.us" site_id="69639" lang="en" xmltv_id="TheCountryNetwork.us@SD">The Country Network</channel>
+  <channel site="tvtv.us" site_id="70113" lang="en" xmltv_id="PixLTV.us@SD">PixL TV</channel>
+  <channel site="tvtv.us" site_id="70130" lang="en" xmltv_id="France24.fr@English">France 24 English</channel>
+  <channel site="tvtv.us" site_id="70248" lang="en" xmltv_id="AntennaTV.us@SD">Antenna TV</channel>
+  <channel site="tvtv.us" site_id="70253" lang="en" xmltv_id="FXMovieChannel.us@SD">FX Movie Channel</channel>
+  <channel site="tvtv.us" site_id="70387" lang="en" xmltv_id="OWN.us@East">Oprah Winfrey Network East</channel>
+  <channel site="tvtv.us" site_id="70436" lang="en" xmltv_id="MeTV.us@SD">MeTV</channel>
+  <channel site="tvtv.us" site_id="70524" lang="en" xmltv_id="ARYZauq.pk@SD">ARY Zauq</channel>
+  <channel site="tvtv.us" site_id="70830" lang="en" xmltv_id="VmeKids.us@SD">Vme Kids</channel>
+  <channel site="tvtv.us" site_id="71198" lang="en" xmltv_id="BigTenNetworkOverflow2.us@SD">Big Ten Network Overflow 2</channel>
+  <channel site="tvtv.us" site_id="71200" lang="en" xmltv_id="BigTenNetworkOverflow3.us@SD">Big Ten Network Overflow 3</channel>
+  <channel site="tvtv.us" site_id="71202" lang="en" xmltv_id="BigTenNetworkOverflow4.us@SD">Big Ten Network Overflow 4</channel>
+  <channel site="tvtv.us" site_id="71280" lang="en" xmltv_id="SundanceTV.us@East">SundanceTV East</channel>
+  <channel site="tvtv.us" site_id="71297" lang="en" xmltv_id="PetsTV.us@SD">Pets.TV</channel>
+  <channel site="tvtv.us" site_id="71302" lang="en" xmltv_id="CarsTV.us@SD">Cars.TV</channel>
+  <channel site="tvtv.us" site_id="71303" lang="en" xmltv_id="MyDestinationTV.us@SD">MyDestination.TV</channel>
+  <channel site="tvtv.us" site_id="71402" lang="en" xmltv_id="AasthaBhajan.in@SD">Aastha Bhajan</channel>
+  <channel site="tvtv.us" site_id="71706" lang="en" xmltv_id="">Bally Sports Southeast Tennessee</channel>
+  <channel site="tvtv.us" site_id="71798" lang="en" xmltv_id="ImpactNetwork.us@SD">Impact Network</channel>
+  <channel site="tvtv.us" site_id="71799" lang="en" xmltv_id="BloombergTV.us@US">Bloomberg Television</channel>
+  <channel site="tvtv.us" site_id="72103" lang="en" xmltv_id="ColorsBangla.in@SD">Colors Bangla</channel>
+  <channel site="tvtv.us" site_id="72413" lang="en" xmltv_id="WeatherNation.us@SD">WeatherNation</channel>
+  <channel site="tvtv.us" site_id="72738" lang="en" xmltv_id="ZeeMarathi.in@SD">Zee Marathi</channel>
+  <channel site="tvtv.us" site_id="73067" lang="en" xmltv_id="Bounce.us@SD">Bounce</channel>
+  <channel site="tvtv.us" site_id="73075" lang="en" xmltv_id="MGMPlusHits.us@East">MGM+ Hits East</channel>
+  <channel site="tvtv.us" site_id="73245" lang="en" xmltv_id="Telemundo.us@East">Telemundo East (National Feed)</channel>
+  <channel site="tvtv.us" site_id="73263" lang="en" xmltv_id="ESPNCollegeExtra7.us@SD">ESPN College Extra 7</channel>
+  <channel site="tvtv.us" site_id="73264" lang="en" xmltv_id="ESPNCollegeExtra8.us@SD">ESPN College Extra 8</channel>
+  <channel site="tvtv.us" site_id="73413" lang="en" xmltv_id="FETV.us@SD">FETV</channel>
+  <channel site="tvtv.us" site_id="73590" lang="en" xmltv_id="KanalD.ro@SD">Kanal D</channel>
+  <channel site="tvtv.us" site_id="74026" lang="en" xmltv_id="XHASDT2.us@SD">LATV (XHAS-DT2) San Diego, CA</channel>
+  <channel site="tvtv.us" site_id="74073" lang="en" xmltv_id="MGMPlusMarquee.us@SD">MGM+ Marquee</channel>
+  <channel site="tvtv.us" site_id="74299" lang="en" xmltv_id="TeleXitos.us@SD">TeleXitos</channel>
+  <channel site="tvtv.us" site_id="74479" lang="en" xmltv_id="DW.de@DeutschPlus">DW Deutsch+</channel>
+  <channel site="tvtv.us" site_id="74550" lang="en" xmltv_id="UnivisionTlnovelas.us@SD">Univision Tlnovelas</channel>
+  <channel site="tvtv.us" site_id="74796" lang="en" xmltv_id="DisneyJunior.us@East">Disney Junior East</channel>
+  <channel site="tvtv.us" site_id="74978" lang="en" xmltv_id="JBS.us@SD">JBS</channel>
+  <channel site="tvtv.us" site_id="75119" lang="en" xmltv_id="BallySportsArizona.us@SD">Bally Sports Arizona</channel>
+  <channel site="tvtv.us" site_id="75448" lang="en" xmltv_id="GMANewsTV.ph@SD">GMA News</channel>
+  <channel site="tvtv.us" site_id="75674" lang="en" xmltv_id="MLBExtraInnings1.us@SD">MLB Extra Innings 1</channel>
+  <channel site="tvtv.us" site_id="76126" lang="en" xmltv_id="Aspire.us@SD">Aspire TV</channel>
+  <channel site="tvtv.us" site_id="76219" lang="en" xmltv_id="LonghornNetwork.us@SD">Longhorn Network</channel>
+  <channel site="tvtv.us" site_id="76302" lang="en" xmltv_id="MusicChoiceDanceEDM.us@SD">Music Choice Dance/EDM</channel>
+  <channel site="tvtv.us" site_id="76366" lang="en" xmltv_id="Pac12Networks.us@SD">Pac-12 Networks</channel>
+  <channel site="tvtv.us" site_id="76370" lang="en" xmltv_id="Pac12BayArea.us@SD">Pac-12 Bay Area</channel>
+  <channel site="tvtv.us" site_id="76371" lang="en" xmltv_id="Pac12Oregon.us@SD">Pac-12 Oregon</channel>
+  <channel site="tvtv.us" site_id="76372" lang="en" xmltv_id="Pac12Arizona.us@SD">Pac-12 Arizona</channel>
+  <channel site="tvtv.us" site_id="76373" lang="en" xmltv_id="Pac12Washington.us@SD">Pac-12 Washington</channel>
+  <channel site="tvtv.us" site_id="76374" lang="en" xmltv_id="Pac12Mountain.us@SD">Pac-12 Mountain</channel>
+  <channel site="tvtv.us" site_id="76375" lang="en" xmltv_id="Pac12LosAngeles.us@SD">Pac-12 Los Angeles</channel>
+  <channel site="tvtv.us" site_id="76942" lang="en" xmltv_id="beINSportsUSA.us@SD">BeIn Sports USA</channel>
+  <channel site="tvtv.us" site_id="76943" lang="en" xmltv_id="beINSportsenEspanol.qa@SD">BeIn Sports en Español</channel>
+  <channel site="tvtv.us" site_id="77033" lang="en" xmltv_id="TUDN.us@SD">TUDN</channel>
+  <channel site="tvtv.us" site_id="78765" lang="en" xmltv_id="DocuBox.nl@SD">DocuBox HD</channel>
+  <channel site="tvtv.us" site_id="78803" lang="en" xmltv_id="RaiNews24.it@SD">Rai News 24</channel>
+  <channel site="tvtv.us" site_id="78808" lang="en" xmltv_id="AmericanHeroesChannel.us@SD">American Heroes Channel</channel>
+  <channel site="tvtv.us" site_id="78851" lang="en" xmltv_id="CoziTV.us@SD">Cozi TV</channel>
+  <channel site="tvtv.us" site_id="80149" lang="en" xmltv_id="UltraFamilia.us@SD">Ultra Familia</channel>
+  <channel site="tvtv.us" site_id="80160" lang="en" xmltv_id="NTV.bd@SD">NTV</channel>
+  <channel site="tvtv.us" site_id="80171" lang="en" xmltv_id="SonyMix.in@SD">Sony Mix</channel>
+  <channel site="tvtv.us" site_id="80404" lang="en" xmltv_id="MLBStrikeZone.us@SD">MLB Strike Zone</channel>
+  <channel site="tvtv.us" site_id="80597" lang="en" xmltv_id="TheCowboyChannel.us@SD">The Cowboy Channel</channel>
+  <channel site="tvtv.us" site_id="80740" lang="en" xmltv_id="ComedyTV.us@SD">Comedy.TV</channel>
+  <channel site="tvtv.us" site_id="82446" lang="en" xmltv_id="DogTV.us@SD">Dog TV</channel>
+  <channel site="tvtv.us" site_id="82542" lang="en" xmltv_id="OneAmericaNewsNetwork.us@SD">One America News Network</channel>
+  <channel site="tvtv.us" site_id="82547" lang="en" xmltv_id="">Fox Sports 1</channel>
+  <channel site="tvtv.us" site_id="82563" lang="en" xmltv_id="GetTV.us@SD">GetTV</channel>
+  <channel site="tvtv.us" site_id="82682" lang="en" xmltv_id="QVC2.us@SD">QVC2</channel>
+  <channel site="tvtv.us" site_id="83059" lang="en" xmltv_id="NHLCenterIce9.us@SD">NHL Center Ice 9</channel>
+  <channel site="tvtv.us" site_id="83060" lang="en" xmltv_id="NHLCenterIce10.us@SD">NHL Center Ice 10</channel>
+  <channel site="tvtv.us" site_id="83097" lang="en" xmltv_id="Revolt.us@SD">Revolt</channel>
+  <channel site="tvtv.us" site_id="83110" lang="en" xmltv_id="CNNInternational.us@NorthAmerica">CNN International</channel>
+  <channel site="tvtv.us" site_id="83162" lang="en" xmltv_id="AdrenalinaSportsNetwork.us@SD">Adrenalina Sports Network</channel>
+  <channel site="tvtv.us" site_id="83166" lang="en" xmltv_id="AdultSwim.us@East">[adult swim]East</channel>
+  <channel site="tvtv.us" site_id="83173" lang="en" xmltv_id="Fusion.us@SD">Fusion</channel>
+  <channel site="tvtv.us" site_id="87376" lang="en" xmltv_id="i24NEWSEnglishUSA.il@SD">i24 News English</channel>
+  <channel site="tvtv.us" site_id="88293" lang="en" xmltv_id="SmartLifeStyleTV.us@SD">Smart LifeStyle TV</channel>
+  <channel site="tvtv.us" site_id="89351" lang="en" xmltv_id="NFLRedZone.us@SD">NFL Red Zone</channel>
+  <channel site="tvtv.us" site_id="89535" lang="en" xmltv_id="SECNetwork.us@SD">SEC Network</channel>
+  <channel site="tvtv.us" site_id="89690" lang="en" xmltv_id="BBCNews.uk@NorthAmerica">BBC World News (North America)</channel>
+  <channel site="tvtv.us" site_id="89707" lang="en" xmltv_id="ZeeSalaam.in@SD">Zee Salaam</channel>
+  <channel site="tvtv.us" site_id="89889" lang="en" xmltv_id="">Bally Sports Southeast</channel>
+  <channel site="tvtv.us" site_id="89922" lang="en" xmltv_id="Grit.us@SD">Grit</channel>
+  <channel site="tvtv.us" site_id="90209" lang="en" xmltv_id="NickMusic.us@SD">NickMusic</channel>
+  <channel site="tvtv.us" site_id="90286" lang="en" xmltv_id="ZeeTamil.in@SD">Zee Tamil</channel>
+  <channel site="tvtv.us" site_id="90639" lang="en" xmltv_id="">Melody Aflam</channel>
+  <channel site="tvtv.us" site_id="91096" lang="en" xmltv_id="">NewsNation East</channel>
+  <channel site="tvtv.us" site_id="91119" lang="en" xmltv_id="REVN.us@Eastern">Rev&#x27;n</channel>
+  <channel site="tvtv.us" site_id="91415" lang="en" xmltv_id="Decades.us@SD">Decades</channel>
+  <channel site="tvtv.us" site_id="91496" lang="en" xmltv_id="TrueCrimeNetwork.us@SD">True Crime Network</channel>
+  <channel site="tvtv.us" site_id="91588" lang="en" xmltv_id="NBCUniverso.us@East">NBC Universo East</channel>
+  <channel site="tvtv.us" site_id="92053" lang="en" xmltv_id="AXSTV.us@SD">AXS TV</channel>
+  <channel site="tvtv.us" site_id="92091" lang="en" xmltv_id="Laff.us@SD">Laff</channel>
+  <channel site="tvtv.us" site_id="92205" lang="en" xmltv_id="NewsNet.us@SD">Newsnet</channel>
+  <channel site="tvtv.us" site_id="92436" lang="en" xmltv_id="beINSports8.qa@USA">beIN SPORTS 8</channel>
+  <channel site="tvtv.us" site_id="92437" lang="en" xmltv_id="beINSports6.qa@USA">beIN SPORTS 6</channel>
+  <channel site="tvtv.us" site_id="92438" lang="en" xmltv_id="beINSports7.qa@USA">beIN SPORTS 7</channel>
+  <channel site="tvtv.us" site_id="92439" lang="en" xmltv_id="beINSports5.qa@USA">beIN SPORTS 5</channel>
+  <channel site="tvtv.us" site_id="92442" lang="en" xmltv_id="beINSports3.qa@USA">beIN SPORTS 3</channel>
+  <channel site="tvtv.us" site_id="92443" lang="en" xmltv_id="beINSports4.qa@USA">beIN SPORTS 4</channel>
+  <channel site="tvtv.us" site_id="93430" lang="en" xmltv_id="Buzzr.us@SD">Buzzr</channel>
+  <channel site="tvtv.us" site_id="94852" lang="en" xmltv_id="AMP2.us@SD">AMP2</channel>
+  <channel site="tvtv.us" site_id="96827" lang="en" xmltv_id="Newsy.us@SD">Newsy</channel>
+  <channel site="tvtv.us" site_id="97051" lang="en" xmltv_id="Comet.us@SD">Comet</channel>
+  <channel site="tvtv.us" site_id="97431" lang="en" xmltv_id="BrazzersTVEurope.us@SD">Brazzers TV</channel>
+  <channel site="tvtv.us" site_id="99085" lang="en" xmltv_id="SkyNewsArabia.ae@SD">Sky News Arabia</channel>
+  <channel site="tvtv.us" site_id="99630" lang="en" xmltv_id="DiscoveryFamilia.us@SD">Discovery Familia</channel>
+  <channel site="tvtv.us" site_id="100075" lang="en" xmltv_id="ZeeBangla.in@SD">Zee Bangla</channel>
+  <channel site="tvtv.us" site_id="101260" lang="en" xmltv_id="QVC3.us@SD">QVC3</channel>
+  <channel site="tvtv.us" site_id="101364" lang="en" xmltv_id="PBSKidsEasternCentral.us@SD">PBS Kids East (National Feed)</channel>
+  <channel site="tvtv.us" site_id="101752" lang="en" xmltv_id="TheGrioTV.us@SD">The Grio</channel>
+  <channel site="tvtv.us" site_id="102047" lang="en" xmltv_id="">Bally Sports Detroit</channel>
+  <channel site="tvtv.us" site_id="102057" lang="en" xmltv_id="">Bally Sports SoCal</channel>
+  <channel site="tvtv.us" site_id="102061" lang="en" xmltv_id="BallySportsSanDiego.us@SD">Bally Sports San Diego</channel>
+  <channel site="tvtv.us" site_id="102069" lang="en" xmltv_id="">Bally Sports Wisconsin</channel>
+  <channel site="tvtv.us" site_id="102148" lang="en" xmltv_id="Charge.us@SD">Charge!</channel>
+  <channel site="tvtv.us" site_id="102790" lang="en" xmltv_id="NFLNetwork.us@SD">NFL Network</channel>
+  <channel site="tvtv.us" site_id="102978" lang="en" xmltv_id="CineSony.us@SD">Cine Sony</channel>
+  <channel site="tvtv.us" site_id="104846" lang="en" xmltv_id="">CBS News Live</channel>
+  <channel site="tvtv.us" site_id="104950" lang="en" xmltv_id="Stadium.us@SD">Stadium</channel>
+  <channel site="tvtv.us" site_id="105678" lang="en" xmltv_id="HistoryenEspanol.us@SD">History en Español</channel>
+  <channel site="tvtv.us" site_id="105723" lang="en" xmltv_id="HallmarkDrama.us@SD">Hallmark Drama</channel>
+  <channel site="tvtv.us" site_id="106653" lang="en" xmltv_id="AFNSpectrum.us@SD">AFN Spectrum</channel>
+  <channel site="tvtv.us" site_id="106819" lang="en" xmltv_id="NuestraVision.us@SD">Nuestra Visión</channel>
+  <channel site="tvtv.us" site_id="106838" lang="en" xmltv_id="Quest.us@SD">Quest</channel>
+  <channel site="tvtv.us" site_id="107076" lang="en" xmltv_id="Tastemade.us@US">Tastemade</channel>
+  <channel site="tvtv.us" site_id="107478" lang="en" xmltv_id="TYTNetwork.us@SD">TYT Network</channel>
+  <channel site="tvtv.us" site_id="107584" lang="en" xmltv_id="PeopleTV.us@SD">People TV</channel>
+  <channel site="tvtv.us" site_id="108162" lang="en" xmltv_id="BallySportsNewOrleans.us@SD">Bally Sports New Orleans</channel>
+  <channel site="tvtv.us" site_id="108165" lang="en" xmltv_id="">Bally Sports Indiana</channel>
+  <channel site="tvtv.us" site_id="108426" lang="en" xmltv_id="">Bally Sports Southwest</channel>
+  <channel site="tvtv.us" site_id="108970" lang="en" xmltv_id="VSiN.us@SD">VSiN</channel>
+  <channel site="tvtv.us" site_id="109140" lang="en" xmltv_id="KITV43.us@HD">Hawaii TV (KITV-DT3) Honolulu, HI</channel>
+  <channel site="tvtv.us" site_id="109333" lang="en" xmltv_id="CheddarNews.us@SD">Cheddar News</channel>
+  <channel site="tvtv.us" site_id="109454" lang="en" xmltv_id="StartTV.us@SD">Start TV</channel>
+  <channel site="tvtv.us" site_id="109553" lang="en" xmltv_id="LawCrime.us@SD">Law &amp; Crime</channel>
+  <channel site="tvtv.us" site_id="110288" lang="en" xmltv_id="CleoTV.us@SD">Cleo TV</channel>
+  <channel site="tvtv.us" site_id="110291" lang="en" xmltv_id="ETLive.us@SD">Entertainment Tonight Live</channel>
+  <channel site="tvtv.us" site_id="110479" lang="en" xmltv_id="Docurama.us@SD">Docurama</channel>
+  <channel site="tvtv.us" site_id="110483" lang="en" xmltv_id="CONtv.us@SD">CONtv</channel>
+  <channel site="tvtv.us" site_id="111132" lang="en" xmltv_id="ShoutFactoryTV.us@SD">Shout Factory TV</channel>
+  <channel site="tvtv.us" site_id="111871" lang="en" xmltv_id="ACCNetwork.us@SD">ACC Network</channel>
+  <channel site="tvtv.us" site_id="112157" lang="en" xmltv_id="Dabl.us@SD">Dabl</channel>
+  <channel site="tvtv.us" site_id="112487" lang="en" xmltv_id="PursuitUP.us@SD">Pursuit Up</channel>
+  <channel site="tvtv.us" site_id="112797" lang="en" xmltv_id="ElectricNow.us@SD">Electric Now</channel>
+  <channel site="tvtv.us" site_id="112881" lang="en" xmltv_id="DUST.us@SD">Dust</channel>
+  <channel site="tvtv.us" site_id="113001" lang="en" xmltv_id="ScreenPix.us@SD">ScreenPix</channel>
+  <channel site="tvtv.us" site_id="113002" lang="en" xmltv_id="ScreenPixWesterns.us@SD">ScreenPix Westerns</channel>
+  <channel site="tvtv.us" site_id="113003" lang="en" xmltv_id="ScreenPixAction.us@SD">ScreenPix Action</channel>
+  <channel site="tvtv.us" site_id="113004" lang="en" xmltv_id="ScreenPixVoices.us@SD">ScreenPix Voices</channel>
+  <channel site="tvtv.us" site_id="113143" lang="en" xmltv_id="beINSPORTSXTRA.us@SD">beIN Sports Xtra USA</channel>
+  <channel site="tvtv.us" site_id="113372" lang="en" xmltv_id="WorldPokerTour.us@US">World Poker Tour</channel>
+  <channel site="tvtv.us" site_id="113380" lang="en" xmltv_id="ABCNewsLive.us@SD">ABC News Live</channel>
+  <channel site="tvtv.us" site_id="113430" lang="en" xmltv_id="Circle.us@SD">Circle</channel>
+  <channel site="tvtv.us" site_id="113776" lang="en" xmltv_id="MarqueeSportsNetwork.us@SD">Marquee Sports Network</channel>
+  <channel site="tvtv.us" site_id="113781" lang="en" xmltv_id="MysteryScienceTheater3000.us@SD">Mystery Science Theater 3000</channel>
+  <channel site="tvtv.us" site_id="114174" lang="en" xmltv_id="NBCNewsNOW.us@SD">NBC News Now</channel>
+  <channel site="tvtv.us" site_id="114278" lang="en" xmltv_id="NBCLX.us@SD">NBCLX (National)</channel>
+  <channel site="tvtv.us" site_id="114448" lang="en" xmltv_id="SkyNewsInternational.uk@SD">Sky News for US Streaming</channel>
+  <channel site="tvtv.us" site_id="114759" lang="en" xmltv_id="AMCPlus.us@SD">AMC Plus</channel>
+  <channel site="tvtv.us" site_id="114934" lang="en" xmltv_id="TheFirstTV.us@SD">The First</channel>
+  <channel site="tvtv.us" site_id="115370" lang="en" xmltv_id="JohnnyCarsonTV.us@SD">Johnny Carson</channel>
+  <channel site="tvtv.us" site_id="115674" lang="en" xmltv_id="SoYummy.us@SD">So Yummy!</channel>
+  <channel site="tvtv.us" site_id="115902" lang="en" xmltv_id="MezzoLive.fr@SD">Mezzo Live HD</channel>
+  <channel site="tvtv.us" site_id="116154" lang="en" xmltv_id="Azteca7.mx@SD">Azteca 7</channel>
+  <channel site="tvtv.us" site_id="116474" lang="en" xmltv_id="GameShowCentral.us@SD">Game Show Central</channel>
+  <channel site="tvtv.us" site_id="117788" lang="en" xmltv_id="NatGeoMundo.us@SD">Nat Geo Mundo</channel>
+  <channel site="tvtv.us" site_id="119219" lang="en" xmltv_id="LiveNOWfromFOX.us@SD">LiveNow From FOX</channel>
+  <channel site="tvtv.us" site_id="120086" lang="en" xmltv_id="DoctorWho.us@US">Classic Doctor Who</channel>
+  <channel site="tvtv.us" site_id="120205" lang="en" xmltv_id="ESTV.us@SD">ESTV</channel>
+  <channel site="tvtv.us" site_id="121307" lang="en" xmltv_id="FoxWeather.us@SD">FOX Weather</channel>
+  <channel site="tvtv.us" site_id="122276" lang="en" xmltv_id="TBNInspire.us@SD">TBN Inspire</channel>
+  <channel site="tvtv.us" site_id="122609" lang="en" xmltv_id="TheCarolBurnettShow.us@SD">The Carol Burnett Show</channel>
+  <channel site="tvtv.us" site_id="122816" lang="en" xmltv_id="beINSPORTSXTRAenEspanol.us@SD">beIN Sports Xtra En Espanol</channel>
+  <channel site="directv.com" site_id="2321d9f1-a28a-494d-b3bc-cd50a156299a" lang="en" xmltv_id="">Monumental Sports Network</channel>
+  <channel site="directv.com" site_id="1a6be6ca-c05f-4780-b4bc-4a2610291dc6" lang="en" xmltv_id="">Chicago Sports Network HD</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-pittsburgh-hd/4519" lang="en" xmltv_id="">SportsNet Pittsburgh HD</channel>
+  <channel site="tvpassport.com" site_id="space-city-home-network-hd/8800" lang="en" xmltv_id="">Space City Home Network HD</channel>
+  <channel site="zap2it.com" site_id="X/USA-DITV-DEFAULT/DITV/USA/12084/49603" lang="es" xmltv_id="">SNY</channel>
+  <channel site="directv.com" site_id="4bfae50c-9f91-4613-8847-02181340006f" lang="en" xmltv_id="">BYUtv</channel>
+  <channel site="directv.com" site_id="e68a9f77-7585-4b8a-a365-efffe5531d25" lang="en" xmltv_id="">BabyTV</channel>
+  <channel site="directv.com" site_id="000a4fef-16ba-4a86-8a45-ca4ac4d30684" lang="en" xmltv_id="">Crime + Investigation HD</channel>
+  <channel site="directv.com" site_id="187cc33f-28cc-404d-b2ab-c2b317a982f0" lang="en" xmltv_id="">Galavision</channel>
+  <channel site="directv.com" site_id="68468e32-5d35-4998-890f-481e574e243e" lang="en" xmltv_id="">Cinelatino</channel>
+  <channel site="directv.com" site_id="4120dd0a-1c5f-42ba-80c6-3fb269edb45e" lang="en" xmltv_id="">Pasiones</channel>
+  <channel site="directv.com" site_id="f4fb0d15-77c9-4ef8-b86c-1500ae958250" lang="en" xmltv_id="">Yahoo Finance</channel>
+  <channel site="tvinsider.com" site_id="real-americas-voice" lang="en" xmltv_id="">Real America&#x27;s Voice</channel>
+  <channel site="pluto.tv" site_id="55b285cd2665de274553d66f" lang="en" xmltv_id="SkyNews.uk@SD">Sky News</channel>
+  <channel site="pluto.tv" site_id="650b68bc2ce8e40008ac9c14" lang="en" xmltv_id="">FanDuel TV Extra</channel>
+  <channel site="tvpassport.com" site_id="euronews/2121" lang="en" xmltv_id="EuronewsEnglish.fr@SD">EuroNews</channel>
+  <channel site="tvpassport.com" site_id="dw-english/426" lang="en" xmltv_id="DW.de@English">DW English</channel>
+</channels>
