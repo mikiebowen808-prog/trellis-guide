@@ -32,13 +32,15 @@ jobs:
 
       - name: Grab two days of listings
         working-directory: epg
+        shell: bash
         run: |
+          set -o pipefail
           npm run grab --- \
             --channels=../trellis.channels.xml \
             --output=../guide.xml \
             --days=2 \
             --maxConnections=4 \
-            --gzip=../guide.xml.gz
+            --gzip=../guide.xml.gz 2>&1 | tee ../grab-log.txt
           ls -l ../guide.xml ../guide.xml.gz
           echo "Programmes: $(grep -c '<programme' ../guide.xml)"
           echo "Channels with listings: $(grep -o '<programme[^>]*channel="[^"]*"' ../guide.xml | sed 's/.*channel=//' | sort -u | wc -l)"
@@ -49,7 +51,7 @@ jobs:
         run: |
           gh release view latest >/dev/null 2>&1 || \
             gh release create latest --title "Latest guide" --notes "Rebuilt daily by the Build guide workflow."
-          gh release upload latest guide.xml.gz --clobber
+          gh release upload latest guide.xml.gz grab-log.txt --clobber
 
       - name: Note the run (keeps GitHub's daily schedule switched on)
         run: |
