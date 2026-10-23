@@ -13,7 +13,7 @@
   <channel site="directv.com" site_id="f4fb0d15-77c9-4ef8-b86c-1500ae958250" lang="en" xmltv_id="Trellis-YahooFinance.us">Yahoo Finance</channel>
   <channel site="tvinsider.com" site_id="real-americas-voice" lang="en" xmltv_id="Trellis-RealAmericasVoice.us">Real America&#x27;s Voice</channel>
   <channel site="pluto.tv" site_id="55b285cd2665de274553d66f" lang="en" xmltv_id="SkyNews.uk@SD">Sky News</channel>
-  <channel site="tvpassport.com" site_id="euronews/2121" lang="en" xmltv_id="EuronewsEnglish.fr@SD">EuroNews</channel>
+  <channel site="tvpassport.com" site_id="euronews/2121" lang="en" xmltv_id="Trellis-Euronews.us">Euronews</channel>
   <channel site="tvpassport.com" site_id="dw-english/426" lang="en" xmltv_id="DW.de@English">DW English</channel>
   <channel site="directv.com" site_id="0a0b9eee-e635-4d0c-a901-4b9d20cc3f14" lang="en" xmltv_id="Trellis-NBCSportsBoston.us">NBC Sports Boston</channel>
   <channel site="directv.com" site_id="0a89b977-d5e0-419d-aa75-5af7ab193dab" lang="en" xmltv_id="Trellis-SECNetwork.us">SEC Network</channel>
