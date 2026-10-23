@@ -38,6 +38,8 @@ jobs:
 
       - name: Grab two days of listings
         working-directory: epg
+        env:
+          TZ: Pacific/Honolulu      # "today" is Hawaii's today, whatever time the run starts
         shell: bash
         run: |
           set -o pipefail
