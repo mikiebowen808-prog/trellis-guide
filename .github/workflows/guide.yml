@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "17 10 * * *"     # daily, 00:17 in Honolulu. Keep it between 00:00 and 13:59 Hawaii time: the grabber
                               # asks for days by the UTC date, which is Hawaii's next day from 14:00 on.
+    - cron: "17 13 * * *"     # 03:17 in Honolulu: a second try, only when the first one came out incomplete
+                              # (a source like DirecTV sometimes turns GitHub away for a while).
   workflow_dispatch:          # "Run workflow" button for a manual refresh
     inputs:
       min_channels:
@@ -26,18 +28,30 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Already done today? (the 03:17 try only runs when 00:17 came out incomplete)
+        id: today
+        run: |
+          if [ "${{ github.event.schedule }}" = "17 13 * * *" ] && grep -q "^$(date -u +%F).* complete" last-run.txt 2>/dev/null; then
+            echo "Tonight's guide is already complete: nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Get the latest iptv-org/epg grabber
+        if: steps.today.outputs.skip != 'true'
         run: git clone --depth 1 https://github.com/iptv-org/epg epg
 
       - uses: actions/setup-node@v5
+        if: steps.today.outputs.skip != 'true'
         with:
           node-version: 22
 
       - name: Install
+        if: steps.today.outputs.skip != 'true'
         working-directory: epg
         run: npm ci --no-audit --no-fund
 
       - name: Grab two days of listings
+        if: steps.today.outputs.skip != 'true'
         working-directory: epg
         shell: bash
         run: |
@@ -52,24 +66,48 @@ jobs:
           echo "Programmes: $(grep -c '<programme' ../guide.xml)"
           echo "Channels with listings: $(grep -o '<programme[^>]*channel="[^"]*"' ../guide.xml | sed 's/.*channel=//' | sort -u | wc -l)"
 
-      - name: Publish (Trellis reads releases/download/latest/guide.xml.gz)
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Fill gaps from the last guide (a source that failed tonight keeps yesterday's listings)
+        if: steps.today.outputs.skip != 'true'
         run: |
-          gh release view latest >/dev/null 2>&1 || \
-            gh release create latest --title "Latest guide" --notes "Rebuilt daily by the Build guide workflow."
-          gh release upload latest guide.xml.gz grab-log.txt --clobber
-
-      - name: Note the run (keeps GitHub's daily schedule switched on)
-        run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > last-run.txt
-          git config user.name "github-actions[bot]"
-          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
-          git add last-run.txt
-          git commit -m "Guide rebuilt $(cat last-run.txt)" || true
-          git push
+          cp guide.xml fresh.xml              # tonight's grab alone, for the check below
+          curl -fsSL -o previous.xml.gz \
+            "https://github.com/${{ github.repository }}/releases/download/latest/guide.xml.gz" || true
+          python3 - <<'PY'
+          import gzip, os, datetime
+          import xml.etree.ElementTree as ET
+          new = ET.parse("guide.xml")
+          root = new.getroot()
+          have = {p.get("channel") for p in root.iter("programme")}
+          known = {c.get("id") for c in root.iter("channel")}
+          if not os.path.exists("previous.xml.gz"):
+              print("No previous guide to fill from."); raise SystemExit(0)
+          try:
+              old = ET.parse(gzip.open("previous.xml.gz")).getroot()
+          except Exception as e:
+              print("Previous guide unreadable:", e); raise SystemExit(0)
+          now = datetime.datetime.now(datetime.timezone.utc)
+          def ends(p):
+              try:
+                  return datetime.datetime.strptime(p.get("stop"), "%Y%m%d%H%M%S %z")
+              except Exception:
+                  return now
+          added, filled = 0, set()
+          for c in old.iter("channel"):
+              if c.get("id") not in known and c.get("id") not in have:
+                  root.insert(0, c); known.add(c.get("id"))
+          for p in old.iter("programme"):
+              ch = p.get("channel")
+              if ch in have or ends(p) <= now:
+                  continue
+              root.append(p); added += 1; filled.add(ch)
+          new.write("guide.xml", encoding="utf-8", xml_declaration=True)
+          with open("guide.xml", "rb") as f, gzip.open("guide.xml.gz", "wb") as g:
+              g.write(f.read())
+          print(f"Kept {added} listings from the last guide for {len(filled)} channels that came back empty tonight.")
+          PY
 
       - name: Check the guide (fails the run, and GitHub emails, when a source has broken)
+        if: steps.today.outputs.skip != 'true'
         id: check
         env:
           MIN_CHANNELS: ${{ inputs.min_channels || '800' }}
@@ -81,7 +119,7 @@ jobs:
           for attrs, name in re.findall(r'<channel ([^>]*)>([^<]*)</channel>', channels):
               a = dict(re.findall(r'(\w+)="([^"]*)"', attrs))
               site_of[a.get("xmltv_id") or a["site_id"]] = a["site"]
-          guide = open("guide.xml", encoding="utf-8").read()
+          guide = open("fresh.xml", encoding="utf-8").read()     # tonight's grab, before gaps were filled
           listed = set(re.findall(r'<programme[^>]*channel="([^"]*)"', guide))
           total, filled = collections.Counter(), collections.Counter()
           for key, site in site_of.items():
@@ -103,6 +141,25 @@ jobs:
                     else "a source returned nothing") + ". Ask Claude to look at grab-log.txt in the latest release.")
               raise SystemExit(1)
           PY
+
+      - name: Publish (Trellis reads releases/download/latest/guide.xml.gz)
+        if: always() && steps.today.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || \
+            gh release create latest --title "Latest guide" --notes "Rebuilt daily by the Build guide workflow."
+          gh release upload latest guide.xml.gz grab-log.txt --clobber
+
+      - name: Note the run (keeps GitHub's daily schedule switched on)
+        if: always() && steps.today.outputs.skip != 'true'
+        run: |
+          echo "$(date -u +"%Y-%m-%dT%H:%M:%SZ") ${{ steps.check.outcome == 'success' && 'complete' || 'incomplete' }}" > last-run.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+          git add last-run.txt
+          git commit -m "Guide rebuilt $(cat last-run.txt)" || true
+          git push
 
       - name: Open an issue that mentions you (a second way to get the email)
         if: failure() && steps.check.outcome == 'failure'
