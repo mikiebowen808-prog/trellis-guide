@@ -2,7 +2,8 @@ name: Build guide
 
 on:
   schedule:
-    - cron: "17 10 * * *"     # daily, 00:17 in Honolulu
+    - cron: "17 10 * * *"     # daily, 00:17 in Honolulu. Keep it between 00:00 and 13:59 Hawaii time: the grabber
+                              # asks for days by the UTC date, which is Hawaii's next day from 14:00 on.
   workflow_dispatch:          # "Run workflow" button for a manual refresh
     inputs:
       min_channels:
@@ -38,8 +39,6 @@ jobs:
 
       - name: Grab two days of listings
         working-directory: epg
-        env:
-          TZ: Pacific/Honolulu      # "today" is Hawaii's today, whatever time the run starts
         shell: bash
         run: |
           set -o pipefail
