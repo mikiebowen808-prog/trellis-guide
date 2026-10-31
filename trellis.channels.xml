@@ -1027,7 +1027,7 @@
   <channel site="tvpassport.com" site_id="bein-sport-en-espanol/10855" lang="en" xmltv_id="Trellis-beINSportsenEspanol.us">beIN Sports en Español</channel>
   <channel site="pluto.tv" site_id="6350fdd266e9ea0007bedec5" lang="en" xmltv_id="Trellis-CBSNews247.us">CBS News 24/7</channel>
   <channel site="pluto.tv" site_id="63d025db4e83e700086eaa96" lang="en" xmltv_id="Trellis-LiveNOWfromFOX.us">LiveNOW from FOX</channel>
-  <channel site="pluto.tv" site_id="650b68bc2ce8e40008ac9c14" lang="en" xmltv_id="Trellis-FanDuelTVExtra.us">FanDuel TV Extra</channel>
+  <channel site="plex.tv" site_id="64e9f17c7511e20e999d6c34" lang="en" xmltv_id="Trellis-FanDuelTVExtra.us">FanDuel TV Extra</channel>
   <channel site="plex.tv" site_id="62d1efa6c33948ea4ceedbcf" lang="es" xmltv_id="Trellis-AMCenEspanol.us">AMC en Español</channel>
-  <channel site="tvtv.us" site_id="25620" lang="en" xmltv_id="Trellis-5StarMax.us">5StarMax</channel>
+  <channel site="tvguide.com" site_id="9233011931" lang="en" xmltv_id="Trellis-5StarMax.us">5StarMax</channel>
 </channels>
